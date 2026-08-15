@@ -1,0 +1,4 @@
+# Core runner (src/post_quote.py) uses Python standard library for maximum reliability and 0s install time.
+# Optional dependencies:
+# discord.py>=2.3.0  # Optional: only needed if running src/bot_gateway.py
+# pytest>=7.0.0      # Optional: for running unit tests

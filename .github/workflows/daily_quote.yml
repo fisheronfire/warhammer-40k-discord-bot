@@ -1,0 +1,82 @@
+name: Warhammer 40K Thought for the Day
+
+on:
+  # Scheduled to run once a day at 12:00 UTC (8:00 AM EST / 5:00 AM PST)
+  # You can adjust this cron expression to your preferred time
+  schedule:
+    - cron: '0 12 * * *'
+
+  # Allows manual triggering directly from the GitHub Actions web interface
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Quote Selection Mode'
+        required: true
+        default: 'daily'
+        type: choice
+        options:
+          - daily
+          - random
+          - id
+      quote_id:
+        description: 'Specific Quote ID (1-402, required only if mode is "id")'
+        required: false
+        default: ''
+        type: string
+      color:
+        description: 'Embed Color Theme'
+        required: true
+        default: 'gold'
+        type: choice
+        options:
+          - gold
+          - crimson
+          - ultramarine
+          - mechanicus
+          - charcoal
+      tag:
+        description: 'Filter random quote by tag (e.g. Heresy, Emperor, Space Marines)'
+        required: false
+        default: ''
+        type: string
+      dry_run:
+        description: 'Dry Run (Preview without sending to Discord)'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  post-quote:
+    name: Transmit Imperial Thought of the Day
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Transmit Thought for the Day to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+          SELECTION_MODE: ${{ github.event.inputs.mode || 'daily' }}
+          QUOTE_ID: ${{ github.event.inputs.quote_id || '' }}
+          EMBED_COLOR: ${{ github.event.inputs.color || 'gold' }}
+          TAG: ${{ github.event.inputs.tag || '' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          python src/post_quote.py

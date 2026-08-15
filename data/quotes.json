@@ -1,0 +1,3560 @@
+{
+  "version": "1.0",
+  "source_url": "https://wh40k.lexicanum.com/wiki/Thought_for_the_day",
+  "total_quotes": 402,
+  "quotes": [
+    {
+      "id": 1,
+      "quote": "A broad mind lacks focus.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 120",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 2,
+      "quote": "A coward always seeks compromise",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 221",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 3,
+      "quote": "A coward’s only reward is to live in fear another day.",
+      "source": "Regimental Standard Official Blog (last accessed 16 April 2016)",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 4,
+      "quote": "A dedicated life may reach the end of infinity.",
+      "source": "White Dwarf 97 (UK), pg. 62, Chapter Approved",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 5,
+      "quote": "A fine mind is a blessing of the Emperor - It should not be cluttered with trivialities.",
+      "source": "Codex: Necrons (3rd Edition), pg. 32",
+      "tags": [
+        "Emperor",
+        "Faith & Zeal",
+        "Wisdom & Mind",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 6,
+      "quote": "A good soldier obeys without question. A good officer commands without doubt.",
+      "source": "Tactica Imperialis (Background Book), pg. 96",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 7,
+      "quote": "A hundred thousand worlds, ten hundred thousand wars. There is no respite, there is nowhere to hide. Across the galaxy there is only war.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 39",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 8,
+      "quote": "A logical argument must be dismissed with absolute conviction!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 232",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 9,
+      "quote": "A man subjected to an alien is no man at all.",
+      "source": "Warhammer 40,000: Dawn of War - Dark Crusade, The Panrea Lowlands archive description",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 10,
+      "quote": "A mind without purpose will wander in dark places",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 61",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 11,
+      "quote": "A moment of laxity spawns a lifetime of heresy.",
+      "source": "Codex: Dark Angels (3rd Edition), pg. 5",
+      "tags": [
+        "Heresy"
+      ]
+    },
+    {
+      "id": 12,
+      "quote": "A questioning mind betrays a treacherous soul.",
+      "source": "Regimental Standard Official Blog (last accessed 16 April 2016)",
+      "tags": [
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 13,
+      "quote": "A questioning servant is more dangerous than an ignorant heretic.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 76",
+      "tags": [
+        "Heresy",
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 14,
+      "quote": "A serpent brought to light is easily strangled.",
+      "source": "White Dwarf November 2019, pg. 18 - Wyrm Hunt",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 15,
+      "quote": "A single thought of heresy can blight a lifetime of faithful duty.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 125",
+      "tags": [
+        "Heresy",
+        "Duty & Honor",
+        "War & Battle",
+        "Faith & Zeal",
+        "Wisdom & Mind",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 16,
+      "quote": "A small mind is a tidy mind.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 32; Warhammer 40,000 3rd Edition Rulebook, pg. 4; Warhammer 40,000 4th Edition Rulebook, pg. 205",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 17,
+      "quote": "A small mind is easily filled with faith.",
+      "source": "Codex: Imperial Guard (3rd Edition, 2nd Codex) pg. 60; Warhammer 40,000 3rd Edition Rulebook, pg. 6",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Faith & Zeal",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 18,
+      "quote": "A suspicious mind is a healthy mind.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 47",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 19,
+      "quote": "A warrior's faith in his commander is his best armour and his strongest weapon.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 50",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 20,
+      "quote": "A weapon cannot substitute for zeal.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 217",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 21,
+      "quote": "A wise man learns from the death of others.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 116",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 22,
+      "quote": "Abhor the Night, it is the Light that Endures!",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 120",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 23,
+      "quote": "Accept your lot!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 193",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 24,
+      "quote": "Across the void of space men live as they have lived for millennia upon the sand, rock and soil of worlds bathed in the light of alien suns. So is Humanity's seed cast far and wide beyond the knowledge of Man, to thrive bitterly in the darkness, to take root and cling with robust and savage determination.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 93",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 25,
+      "quote": "Adamantium walls and plasteel bulkheads may seem formidable, but an unshakeable faith in the Immortal Emperor of Man can overcome any barriers.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 133",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 26,
+      "quote": "Against the Alien and the Traitor there is no fair way to fight.",
+      "source": "Codex: Deathwatch - Watch-Fortress Edition, inscriptions on the books",
+      "tags": [
+        "Heresy",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 27,
+      "quote": "Against the predations of the witch, let obedience be your shield, let confession be your sword.",
+      "source": "Dredge Runners (Audio Drama)",
+      "tags": [
+        "Duty & Honor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 28,
+      "quote": "All Daemons are Falsehood. They are lies given the shape of creatures by the fell power of Chaos.",
+      "source": "Codex: Chaos Space Marines (3rd Edition, 1st Codex), pg. 39",
+      "tags": [
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 29,
+      "quote": "All hail the martyrs! On their blood is our Imperium founded, in their remembrance do we honour ourselves.",
+      "source": "Warhammer 40,000 5th Edition Rulebook, pg. 109",
+      "tags": [
+        "Emperor",
+        "Duty & Honor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 30,
+      "quote": "All mortal life is folly that does not feed the spirit",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 185",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 31,
+      "quote": "All our ignorances bring us closer to annihilation.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 44",
+      "tags": [
+        "Emperor",
+        "Wisdom & Mind",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 32,
+      "quote": "All praise to the Emperor.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 115",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 33,
+      "quote": "All souls cry out for salvation.",
+      "source": "Codex: Dark Angels (3rd Edition), pg. 20; Codex: Space Marines (4th Edition), pg. 58",
+      "tags": [
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 34,
+      "quote": "An alien mind cannot accept the Emperor's blessing.",
+      "source": "Codex: Deathwatch - Watch-Fortress Edition, inscriptions on the books",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Faith & Zeal",
+        "Wisdom & Mind",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 35,
+      "quote": "An Empty Mind Is A Loyal Mind.",
+      "source": "Codex: Craftworld Eldar (3rd Edition), pg. 8",
+      "tags": [
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 36,
+      "quote": "An open mind is like a fortress with its gate unbarred and unguarded.",
+      "source": "Warhammer 40,000 2nd Edition Rulebook, pg. 47 Warhammer 40,000 3rd Edition Rulebook, pg. 90",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 37,
+      "quote": "An unprotected soul can no more cross the storms of the warp than a heretic can bear the gaze of the Inquisition.",
+      "source": "Codex: Necrons (3rd Edition), pg. 10",
+      "tags": [
+        "Heresy",
+        "War & Battle",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 38,
+      "quote": "Analysis is the bane of conviction.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 179",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 39,
+      "quote": "Appeasement is a curse.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 82",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 40,
+      "quote": "As the mind to the body so the soul to the spirit, as death to the mortal man so failure to the immortal, such is the price of all ambition.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 226",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 41,
+      "quote": "Be courageous and bold, be humble before your masters, lead with valour! These things above all others will be of use when your time comes to die.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 84",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 42,
+      "quote": "Be grateful of your Master's favour!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 238",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 43,
+      "quote": "Be Pure.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 74",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 44,
+      "quote": "Be strong in your ignorance.",
+      "source": "Codex: Imperial Guard (3rd Edition), pg. 15",
+      "tags": [
+        "Emperor",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 45,
+      "quote": "Be vigilant and strong. The Emperor knows what evil lurks in the vacillation of a weak fool.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 49",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 46,
+      "quote": "Beginning reform is beginning revolution.",
+      "source": "Warhammer 40,000: Dawn of War, Menu 'Thought for the Day'",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 47,
+      "quote": "Better crippled in body than corrupt in mind.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 182; Warhammer 40,000 3rd Edition Rulebook, pg. 119",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 48,
+      "quote": "Better to self-destruct than acquiesce.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 124",
+      "tags": [
+        "Emperor",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 49,
+      "quote": "Between the stars the ancient unseen enemies of mankind wait and hunger. Every voyage into the nothing is a confrontation with horror, with the implacable things of the warp, and with man's own innermost fears.",
+      "source": "Codex Imperialis (Background Book), pg. 7",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 50,
+      "quote": "Big guns never tire.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 98",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 51,
+      "quote": "Blessed are the Gun Makers.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 34",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 52,
+      "quote": "Blessed is the mind too small for doubt.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 34; Warhammer 40,000 4th Edition Rulebook, pg. 51; Warhammer 40,000 5th Edition Rulebook, pg. 14",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 53,
+      "quote": "Blind faith is a just cause. - Liber Imperialis",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 97 Dark Heresy Core Rulebook, pg. 263",
+      "tags": [
+        "Emperor",
+        "Heresy",
+        "War & Battle",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 54,
+      "quote": "Brave are they who know everything yet fear nothing.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 218",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 55,
+      "quote": "Burn the Heretic! Kill the Mutant! Purge the Unclean!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 68; Warhammer 40,000 5th Edition Rulebook, pg. 26",
+      "tags": [
+        "Heresy",
+        "War & Battle",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 56,
+      "quote": "Burn the heretic.",
+      "source": "Codex: Black Templars (4th Edition), pg. 32",
+      "tags": [
+        "Heresy",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 57,
+      "quote": "Burn the Unclean with the fires of Purity.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 66",
+      "tags": [
+        "Emperor",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 58,
+      "quote": "By the manner of our death are we judged.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 234",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 59,
+      "quote": "By the manner of their death we shall know them.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 85",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 60,
+      "quote": "Call no man happy until he is dead.",
+      "source": "Codex: Imperial Guard (3rd Edition), pg. 23",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 61,
+      "quote": "Carry the Emperor's will as your torch, with it destroy the shadows",
+      "source": "Codex: Black Templars (4th Edition), pg. 12; Warhammer 40,000 3rd Edition Rulebook, pg. 50",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 62,
+      "quote": "Cast out the mutant, the traitor, the heretic. For every enemy without there are a hundred within.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 93",
+      "tags": [
+        "Heresy",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 63,
+      "quote": "Cease and repent!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 196",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 64,
+      "quote": "Cease purpose and die.",
+      "source": "Warhammer 40,000: Compendium, pg. 93",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 65,
+      "quote": "Cleanse yourself in the blood of our enemies.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 66",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 66,
+      "quote": "Compromise is akin to treachery.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 19",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 67,
+      "quote": "Consider the Predator. Let your soul be armoured with Faith, driven on the tracks of Obedience which overcome all obstacles, and armed with the three great guns of Zeal, Duty and Purity.",
+      "source": "Warhammer 40,000: Compendium, pg. 85",
+      "tags": [
+        "Duty & Honor",
+        "War & Battle",
+        "Faith & Zeal",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 68,
+      "quote": "Contemplation is the womb of treachery.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 230",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 69,
+      "quote": "Courage comes from duty.",
+      "source": "Only War: Shield of Humanity, pg. 12",
+      "tags": [
+        "Duty & Honor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 70,
+      "quote": "Courage is the Emperor’s gift: repay him with victory.",
+      "source": "Regimental Standard Official Blog (last accessed 16 April 2016)",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 71,
+      "quote": "Courage is the mastery of fear - not the absence of fear.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 178",
+      "tags": [
+        "Emperor",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 72,
+      "quote": "Curse now the death in vain.",
+      "source": "Codex: Space Marines (4th Edition), pg. 77",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 73,
+      "quote": "Damnation is eternal.",
+      "source": "Codex: Dark Angels (3rd Edition), pg. 20; Warhammer 40,000 4th Edition Rulebook, pg. 132",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 74,
+      "quote": "Dark dreams lie upon the heart.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 83",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 75,
+      "quote": "Death be thy compass.",
+      "source": "Warhammer 40,000: Dawn of War, Menu 'Imperium Thought for the Day'",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 76,
+      "quote": "Death brings its own reward.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 75",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 77,
+      "quote": "Death is honour.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 78",
+      "tags": [
+        "Duty & Honor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 78,
+      "quote": "Death is the only answer",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 73",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 79,
+      "quote": "Death is the servant of the righteous.",
+      "source": "Codex: Space Marines (4th Edition), pg. 34; Warhammer 40,000 4th Edition Rulebook, pg. 198",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 80,
+      "quote": "Defile not his presence.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 115",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 81,
+      "quote": "Defile the Mutant.",
+      "source": "Warhammer 40,000: Rogue Trader, pgs. 82, 87",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 82,
+      "quote": "Destroy, destroy, destroy!",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 240",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 83,
+      "quote": "Dib dib dib, dob dob dob.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 175",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 84,
+      "quote": "Do not question the Will of the Emperor!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 259",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 85,
+      "quote": "Do Not Wait for Death.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 85",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 86,
+      "quote": "Do not waste your tears. I was not born to watch the world grow dim. Life is not measured in years, but by the deeds of men.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 113",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 87,
+      "quote": "Doubt forms the path to damnation.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 178",
+      "tags": [
+        "Emperor",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 88,
+      "quote": "Doubt is a sign of weakness.",
+      "source": "Codex: Black Templars (4th Edition), pg. 27; Warhammer 40,000 4th Edition Rulebook, pg. 235",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 89,
+      "quote": "Drink deep of victory and remember the fallen.",
+      "source": "Codex: Blood Angels (3rd Edition), pg. 7",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 90,
+      "quote": "Duty prevails.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 258",
+      "tags": [
+        "Duty & Honor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 91,
+      "quote": "Enlightenment is a myth we do not need to understand in order to hate.",
+      "source": "Codex: Deathwatch - Watch-Fortress Edition, inscriptions on the books",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 92,
+      "quote": "Even a man who has nothing can still offer his life.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 215; Warhammer 40,000 5th Edition Rulebook, pg. 95",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 93,
+      "quote": "Even though you once called him friend, the Traitor has forsaken you. Show no mercy even if he begs it, for his soul is tainted and given the chance he will betray your trust.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 142",
+      "tags": [
+        "Emperor",
+        "Heresy",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 94,
+      "quote": "Every human life is a spark in the darkness. It flares for a moment, catches the eye, and is gone forever. A retinal after-image that fades and is obscured forever by newer, brighter lights.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 77",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 95,
+      "quote": "Every lone spirit doubts his strength.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 177",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 96,
+      "quote": "Every man is a spark in the darkness. By the time he is noticed he is gone forever. A retinal after-image that fades and is obscured by newer, brighter lights.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 93",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 97,
+      "quote": "Examine your thoughts!",
+      "source": "Warhammer 40,000: Rogue Trader; Warhammer 40,000 4th Edition Rulebook, pg. 223",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 98,
+      "quote": "Excuses are the refuge of the weak.",
+      "source": "Codex: Black Templars (4th Edition), pg. 20; Warhammer 40,000 4th Edition Rulebook, pg. 199",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 99,
+      "quote": "Exist for the Emperor.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 87 (corrected spelling from \"Emporer\" to \"Emperor\")",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 100,
+      "quote": "Facts are chains that bind perception and fetter truth. For a man can remake the world if he has a dream and no facts to cloud his mind.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 70",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 101,
+      "quote": "Faith grows from the barrel of a gun.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 72",
+      "tags": [
+        "Emperor",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 102,
+      "quote": "Faith, Hate and Ignorance.",
+      "source": "Codex: Tyranids (4th Edition), pg. 17",
+      "tags": [
+        "Faith & Zeal",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 103,
+      "quote": "Faith. Honour. Vigilance.",
+      "source": "Codex: Dark Angels (3rd Edition), pg. 24",
+      "tags": [
+        "Duty & Honor",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 104,
+      "quote": "Faith in the Emperor is its own reward.",
+      "source": "Codex: Assassins (2nd Edition), pg. 8",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Faith & Zeal",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 105,
+      "quote": "Faith is stronger than Adamantium.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 173",
+      "tags": [
+        "Emperor",
+        "Faith & Zeal",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 106,
+      "quote": "Faith is the strongest shield.",
+      "source": "The Traitor's Hand (Novel), ch. 7",
+      "tags": [
+        "Heresy",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 107,
+      "quote": "Faith is your shield.",
+      "source": "Codex: Space Marines (4th Edition), pg. 39; Warhammer 40,000 3rd Edition Rulebook, pg. 51",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 108,
+      "quote": "Faith without deeds is worthless.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 100; Codex: Space Marines (4th Edition), pg. 20",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 109,
+      "quote": "Fear denies faith.",
+      "source": "Warhammer 40,000: Dawn of War, Menu 'Thought for the Day'",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 110,
+      "quote": "Fear is the Mind Killer.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 78",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 111,
+      "quote": "Fear not death, for the soul of the faithful man never dies.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 98",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Faith & Zeal",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 112,
+      "quote": "Fear not the creatures of the jungle but those that lurk within your mind.",
+      "source": "Codex: Catachans (3rd Edition), pg. 22",
+      "tags": [
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 113,
+      "quote": "Fear the shadows; despise the night. There are horrors that no man can face and survive.",
+      "source": "Codex: Dark Eldar (3rd Edition), pg. 11",
+      "tags": [
+        "Imperial Wisdom"
+      ]
+    },
+    {
+      "id": 114,
+      "quote": "Follow the Emperor, and the glory of victory shall be yours.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 153",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 115,
+      "quote": "Foolish are those who fear nothing, yet claim to know everything.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 214",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 116,
+      "quote": "For a warrior the only crime is cowardice.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 238",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 117,
+      "quote": "For every battle honour, a thousand heroes die alone, unsung, and unremembered.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 72; Warhammer 40,000 3rd Edition Rulebook, pg. 159; Warhammer 40,000 5th Edition Rulebook, pg. 121",
+      "tags": [
+        "Duty & Honor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 118,
+      "quote": "For the foes of Mankind, the only mercy is a swift death.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 153",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 119,
+      "quote": "For those who seek perfection there can be no rest this side of the grave.",
+      "source": "Codex: Black Templars (4th Edition), pg. 9; Warhammer 40,000 3rd Edition Rulebook, pg. 96",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 120,
+      "quote": "Forgiveness is a sign of weakness.",
+      "source": "Codex: Space Marines (4th Edition), pg. 74",
+      "tags": [
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 121,
+      "quote": "Forward Brothers, with loyalty to victory and glory!",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 76",
+      "tags": [
+        "Emperor",
+        "Duty & Honor",
+        "War & Battle",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 122,
+      "quote": "From the seed of heresy grows the downfall of man.",
+      "source": "Sisters of Battle (Comic), Issue 4",
+      "tags": [
+        "Heresy",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 123,
+      "quote": "Glory in death is life Eternal.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 136",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 124,
+      "quote": "Happiness is a delusion of the weak.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 216",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 125,
+      "quote": "Hard work conquers everything.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 253<Dark Heresy Core Rulebook, pg. 41",
+      "tags": [
+        "Heresy",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 126,
+      "quote": "Hate enriches.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 7",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 127,
+      "quote": "Hatred is our surest weapon.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 154",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 128,
+      "quote": "Hatred is the Emperor's greatest gift to humanity.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 117; Warhammer 40,000 4th Edition Rulebook, pg. 67; Codex: Space Marines (4th Edition), pg. 66; Codex: Deathwatch - Watch-Fortress Edition, inscriptions on the books",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 129,
+      "quote": "Hatred steels our resolve.",
+      "source": "Codex: Deathwatch - Watch-Fortress Edition, inscriptions on the books",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 130,
+      "quote": "He bears the weight of Mankind's ills.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 150",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 131,
+      "quote": "He who allows the alien to live shares its crime of existence.",
+      "source": "Codex: Deathwatch - Watch-Fortress Edition, inscriptions on the books",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 132,
+      "quote": "He who lives for nothing is nothing. He who dies for the Emperor is a hero.",
+      "source": "Codex: Armageddon (3rd Edition), pg. 32; Crusade for Armageddon (Novel), pre-prologue",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 133,
+      "quote": "He who picks up the sword against us, shall perish by it.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 25",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 134,
+      "quote": "Heresy grows from idleness.",
+      "source": "Codex: Black Templars (4th Edition), pg. 44; Warhammer 40,000 4th Edition Rulebook, pg. 220",
+      "tags": [
+        "Heresy",
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 135,
+      "quote": "Heresy must be met with hatred.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 135",
+      "tags": [
+        "Heresy",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 136,
+      "quote": "His will be done.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 254",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 137,
+      "quote": "His Word is Our Strength.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 86",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 138,
+      "quote": "Honour is what a pure mind knows about itself.",
+      "source": "Imperial Armour Volume Two (First Edition), pg. 209",
+      "tags": [
+        "Emperor",
+        "Duty & Honor",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 139,
+      "quote": "Honour your Chapter.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 84",
+      "tags": [
+        "Duty & Honor",
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 140,
+      "quote": "Honour, Duty & Obedience.",
+      "source": "Codex: Dark Eldar (3rd Edition), pg. 44",
+      "tags": [
+        "Duty & Honor"
+      ]
+    },
+    {
+      "id": 141,
+      "quote": "Hope is the beginning of unhappiness.",
+      "source": "Warhammer 40,000: Compendium, pg. 71; Warhammer 40,000 3rd Edition Rulebook, pg. 95; Warhammer 40,000 4th Edition Rulebook, pg. 85; Warhammer 40,000 5th Edition Rulebook, pg. 53",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 142,
+      "quote": "Hope is the first step on the road to disappointment.",
+      "source": "Codex: Imperial Guard (3rd Edition, 2nd Codex), pg. 59; Warhammer 40,000 3rd Edition Rulebook, pg. 52; Warhammer 40,000 4th Edition Rulebook, pg. 231",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 143,
+      "quote": "Humanity is an ocean; if a few drops of the ocean are polluted then the ocean is tainted.",
+      "source": "Imperial Armour Volume Two (First Edition), pg. 201",
+      "tags": [
+        "Emperor",
+        "Heresy"
+      ]
+    },
+    {
+      "id": 144,
+      "quote": "If a job's worth doing it's worth dying for!",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 28; Warhammer 40,000 3rd Edition Rulebook, pg. 64; Warhammer 40,000 4th Edition Rulebook, pg. 65",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 145,
+      "quote": "If a man dies that another should live, that man's spirit shall eat at the Emperor's table",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 49",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 146,
+      "quote": "If you cannot speak well of your Master, be silent!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 60",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 147,
+      "quote": "Ignorance is a virtue",
+      "source": "Codex: Chaos Space Marines (3rd Edition, 2nd Codex), pg. 81",
+      "tags": [
+        "Wisdom & Mind",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 148,
+      "quote": "Ignorance is bliss",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 29",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 149,
+      "quote": "Ignorance is your best defence.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 90",
+      "tags": [
+        "Emperor",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 150,
+      "quote": "In an hour of Darkness a blind man is the best guide. In an age of Insanity look to the madman to show the way.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 38",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 151,
+      "quote": "In courage we have no equals.",
+      "source": "Imperial Armour Volume Two (First Edition), pg. 206",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 152,
+      "quote": "In doubt, avert thine eyes",
+      "source": "White Dwarf May 2019, pg. 29",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 153,
+      "quote": "In our resolve we only reflect his purpose of will.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 64",
+      "tags": [
+        "Emperor",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 154,
+      "quote": "In the blazing furnace of battle we shall forge anew the iron will of yet a stronger race.",
+      "source": "Warhammer 40,000 5th Edition Rulebook, pg. 108",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 155,
+      "quote": "In the darkest of moments, the Emperor’s light shines brightest.",
+      "source": "Regimental Standard Official Blog (last accessed 16 April 2016)",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 156,
+      "quote": "In the darkness a blind man is the best guide. In an age of Madness look to the madman to show the way.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 244",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 157,
+      "quote": "Information Is Power",
+      "source": "Codex: Dark Eldar (3rd Edition), pg. 38",
+      "tags": [
+        "Imperial Wisdom"
+      ]
+    },
+    {
+      "id": 158,
+      "quote": "Innocence proves nothing",
+      "source": "Codex: Black Templars (4th Edition), pg. 15; Warhammer 40,000 3rd Edition Rulebook, pg. 12; Warhammer 40,000 4th Edition Rulebook, pg. 209",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 159,
+      "quote": "Inspiration grows from the barrel of a gun.",
+      "source": "Warhammer 40,000: Compendium, pg. 25",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 160,
+      "quote": "Intellect is a mask for traitors",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 178",
+      "tags": [
+        "Heresy",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 161,
+      "quote": "Intolerance is a blessing",
+      "source": "Conquest of Armageddon (Novel), ch. 21; Warhammer 40,000 4th Edition Rulebook, pg. 175",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 162,
+      "quote": "It is better for a man to be afraid than happy.",
+      "source": "Warhammer 40,000 8th Edition Rulebook, pg. 40",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 163,
+      "quote": "It is better that one hundred innocent fall before the wrath of the Emperor than one traitor kneels before the lords of darkness",
+      "source": "Imperial Armour Volume Two (First Edition), pg. 222",
+      "tags": [
+        "Emperor",
+        "Heresy"
+      ]
+    },
+    {
+      "id": 164,
+      "quote": "It is better to die for the Emperor than to live for yourself.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 64; Warhammer 40,000 4th Edition Rulebook, pg. 191; Codex: Space Marines (4th Edition), pg. 60; White Dwarf November 2019, pg. 49",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 165,
+      "quote": "It is not in my mind to ask questions that cannot be answered. That is the soul standing upon the crossroad of vacillation. You search for wisdom, but achieve only a stasis of will.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 35",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 166,
+      "quote": "It is not the Horror of War that troubles me but the Unseen Horrors of Peace.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 44; Warhammer 40,000 4th Edition Rulebook, pg. 16",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 167,
+      "quote": "It is the bitter tears that the Gods weep that bind us to their hearts",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 55",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 168,
+      "quote": "It is through the Destruction of our Enemies, that we Earn our Salvation",
+      "source": "Imperial Armour Volume Two (Second Edition), pg. 211",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 169,
+      "quote": "Kill the mutant",
+      "source": "Codex: Black Templars (4th Edition), pg. 33",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 170,
+      "quote": "Know No Fear.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 82",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 171,
+      "quote": "Know the mutant; kill the mutant.",
+      "source": "Codex: Chaos Space Marines (3rd Edition, 1st Codex), pg. 31; Codex: Space Marines (4th Edition), pg. 54; Warhammer 40,000 5th Edition Rulebook, pg. 38",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 172,
+      "quote": "Know thine enemy",
+      "source": "Codex: Dark Angels (3rd Edition), pg. 20",
+      "tags": [
+        "Imperial Wisdom"
+      ]
+    },
+    {
+      "id": 173,
+      "quote": "Knowledge is half the battle.",
+      "source": "Imperial Armour - Imperial Vehicles for Warhammer 40,000, pg. 26",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 174,
+      "quote": "Knowledge is power, hide it well.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 79",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 175,
+      "quote": "Knowledge is to be feared!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 240",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 176,
+      "quote": "Know your destination before you set out",
+      "source": "Codex: Assassins (2nd Edition), pg. 5",
+      "tags": [
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 177,
+      "quote": "Know your duty!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 45",
+      "tags": [
+        "Duty & Honor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 178,
+      "quote": "Labour long in his sight.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 146",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 179,
+      "quote": "Leniency is a sign of weakness!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 251",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 180,
+      "quote": "Let faith protect your mind and metal your flesh",
+      "source": "Imperial Armour - Imperial Vehicles for Warhammer 40,000, pg. 12",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Faith & Zeal",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 181,
+      "quote": "Let your soul be armoured with Faith, driven on the tracks of Obedience which overcome all obstacles, and armed with the three great guns of Zeal, Duty and Purity.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 193",
+      "tags": [
+        "Emperor",
+        "Duty & Honor",
+        "Faith & Zeal",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 182,
+      "quote": "Life is a prison, death a release",
+      "source": "Codex: Black Templars (4th Edition), pg. 41; Warhammer 40,000 4th Edition Rulebook, pg. 123",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 183,
+      "quote": "Life is a prison, death shall be my release",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 119",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 184,
+      "quote": "Life is the Emperor's currency, spend it well",
+      "source": "Codex: Black Templars (4th Edition), pg. 48",
+      "tags": [
+        "Emperor",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 185,
+      "quote": "Listen not to the alien, look not upon the alien, speak not unto the alien!",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 105",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 186,
+      "quote": "Look to your wargear!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 75",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 187,
+      "quote": "Look upon the Emperor's Works and tremble!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 260",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 188,
+      "quote": "Losses are acceptable. Failure is not.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 192",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 189,
+      "quote": "Mankind stands on the shoulders of the Martyred",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 171",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 190,
+      "quote": "May the Emperor's Wrath forever cleanse our souls",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 1",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 191,
+      "quote": "Mercy is a sign of weakness.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 204; Codex: Space Marines (4th Edition), pg. 69",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 192,
+      "quote": "Mutual hatred is all we can expect when dealing with aliens.",
+      "source": "White Dwarf May 2012, pg. 1",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 193,
+      "quote": "My armour is contempt.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 117; Warhammer 40,000 4th Edition Rulebook, pg. 32; Warhammer 40,000 5th Edition Rulebook, pg. 68",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 194,
+      "quote": "Negotiation is surrender",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 68",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 195,
+      "quote": "Never forget, never forgive.",
+      "source": "Codex: Dark Angels (3rd Edition), pg. 5; Codex: Space Marines (4th Edition), pg. 8",
+      "tags": [
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 196,
+      "quote": "No army is big enough to conquer the galaxy. But faith alone can overturn the universe.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 107; Warhammer 40,000 5th Edition Rulebook, pg. 108",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 197,
+      "quote": "No man died in His service that died in vain.",
+      "source": "Codex: Space Marines (4th Edition), pg. 22",
+      "tags": [
+        "Duty & Honor",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 198,
+      "quote": "No man died in the Emperor's service that died in vain",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 197 Warhammer 40,000 3rd Edition Rulebook, pg. 120",
+      "tags": [
+        "Emperor",
+        "Duty & Honor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 199,
+      "quote": "No Mercy. No Remorse. Just Kill.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 86",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 200,
+      "quote": "No pity! No remorse! No fear!",
+      "source": "Codex: Black Templars (4th Edition), pg. 37",
+      "tags": [
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 201,
+      "quote": "Nobody is innocent, there are merely varying levels of guilt.",
+      "source": "Codex: Black Templars (4th Edition), pg. 28; Warhammer 40,000 4th Edition Rulebook, pg. 244",
+      "tags": [
+        "War & Battle",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 202,
+      "quote": "Not Even The Dead Know The End Of War",
+      "source": "Codex: Craftworld Eldar (3rd Edition), pg. 4",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 203,
+      "quote": "Nothing Can Hide From The Wrath Of The Emperor.",
+      "source": "Codex: Craftworld Eldar (3rd Edition), pg. 18",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 204,
+      "quote": "Nothing inspires revenge quite like cold hearted hatred",
+      "source": "Imperial Armour Volume Two (First Edition), pg. 205",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 205,
+      "quote": "Nothing of value was earned without pain.",
+      "source": "Warhammer 40,000 8th Edition Rulebook, pg. 42",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 206,
+      "quote": "Obedience is blind.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 142",
+      "tags": [
+        "Emperor",
+        "Duty & Honor"
+      ]
+    },
+    {
+      "id": 207,
+      "quote": "Obedience is not enough.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 78",
+      "tags": [
+        "Emperor",
+        "Duty & Honor"
+      ]
+    },
+    {
+      "id": 208,
+      "quote": "Official! The graves of warriors who have given their lives for the Emperor now outnumber the stars themselves.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 65",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 209,
+      "quote": "Only in death does duty end.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 74; Codex: Necrons (3rd Edition), pg. 49; Codex: Space Marines (4th Edition), pg. 73; Warhammer 40,000 5th Edition Rulebook, pg. 66",
+      "tags": [
+        "Duty & Honor",
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 210,
+      "quote": "Only the awkward question; only the foolish ask twice.",
+      "source": "Codex: Space Marines (4th Edition), pg. 32",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 211,
+      "quote": "Only the insane have strength enough to prosper.",
+      "source": "Codex: Space Marines (4th Edition), pg. 78",
+      "tags": [
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 212,
+      "quote": "Only the faithless question.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 142",
+      "tags": [
+        "Emperor",
+        "Faith & Zeal",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 213,
+      "quote": "Only the insane have strength enough to prosper; only those that prosper truly judge what is sane.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 69",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 214,
+      "quote": "Only the insane have strength enough to prosper. Only those who prosper may truly judge what is sane.",
+      "source": "Warhammer 40,000 2nd Edition Rulebook, pg. 93; Codex: Space Marines (4th Edition), pg. 65",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 215,
+      "quote": "Only the insane prosper",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 53",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 216,
+      "quote": "Only The Lost Understand True Terror",
+      "source": "Codex: Craftworld Eldar (3rd Edition), pg. 22",
+      "tags": [
+        "Imperial Wisdom"
+      ]
+    },
+    {
+      "id": 217,
+      "quote": "Only those that follow the guiding light of the Emperor may save their souls.",
+      "source": "Warhammer 40,000 5th Edition Rulebook, pg. 108",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 218,
+      "quote": "On the battlefield, valour is the lifeblood of victory.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 48",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 219,
+      "quote": "Our enemies are mortal no longer. Face them squarely and without flinching from duty. Mercy for such as them is self-deception",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 193",
+      "tags": [
+        "Emperor",
+        "Duty & Honor",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 220,
+      "quote": "Our mercies destroys us",
+      "source": "Imperial Armour Volume Two (First Edition), pg. 193",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 221,
+      "quote": "Our presence remakes the past",
+      "source": "White Dwarf 97 (UK), pg. 39, Index Astartes - Ultramarines",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 222,
+      "quote": "Over the faithful, fear has no dominion",
+      "source": "Imperial Armour Volume Two (First Edition), pg. 232",
+      "tags": [
+        "Emperor",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 223,
+      "quote": "Pain is an illusion caused by fear",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 130",
+      "tags": [
+        "Emperor",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 224,
+      "quote": "Pain is an illusion of the senses, despair is an illusion of the mind.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 81; Warhammer 40,000 4th Edition Rulebook, pg. 13 Codex: Black Templars (4th Edition), pg. 17",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 225,
+      "quote": "Peace is Hell.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 79",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 226,
+      "quote": "Perseverance and silence are the highest virtues",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 208; White Dwarf November 2019, pg. 51",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 227,
+      "quote": "Pity ye Not!",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 46",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 228,
+      "quote": "Place your trust in the Emperor's steel",
+      "source": "Imperial Armour - Imperial Vehicles for Warhammer 40,000, pg. 56",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 229,
+      "quote": "Power resides in the will of the Righteous",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 73",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 230,
+      "quote": "Praise the sun that brings the dawn Of our final doom.",
+      "source": "Warhammer 40,000: Compendium, pg. 80",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 231,
+      "quote": "Prayer cleanses the soul, but pain cleanses the body",
+      "source": "Codex: Black Templars (4th Edition), pg. 4; Warhammer 40,000 3rd Edition Rulebook, pg. 10; Warhammer 40,000 4th Edition Rulebook, pg. 192",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 232,
+      "quote": "Pure in body, pure in heart",
+      "source": "Codex: Tau (3rd Edition), pg. 51",
+      "tags": [
+        "Imperial Wisdom"
+      ]
+    },
+    {
+      "id": 233,
+      "quote": "Purge the unclean.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 80; Codex: Blood Angels (3rd Edition), pg. 1; Codex: Space Marines (4th Edition), pg. 18",
+      "tags": [
+        "War & Battle",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 234,
+      "quote": "Purge those who are unclean",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 62",
+      "tags": [
+        "War & Battle",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 235,
+      "quote": "Reach out to embrace the glories that will come",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 124",
+      "tags": [
+        "Emperor",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 236,
+      "quote": "Reason begets doubt; Doubt begets heresy.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 81; Warhammer 40,000 5th Edition Rulebook, pg. 2",
+      "tags": [
+        "Heresy",
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 237,
+      "quote": "Reason is the cloak of Traitors",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 169",
+      "tags": [
+        "Heresy",
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 238,
+      "quote": "Rejoice in service!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 176",
+      "tags": [
+        "Duty & Honor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 239,
+      "quote": "Revere the Omnissiah, for it is the source of all power.",
+      "source": "Codex: Necrons (3rd Edition), pg. 54",
+      "tags": [
+        "Adeptus Mechanicus"
+      ]
+    },
+    {
+      "id": 240,
+      "quote": "Ruthlessness is the kindness of the wise",
+      "source": "Codex: Black Templars (4th Edition), pg. 49; Warhammer 40,000 4th Edition Rulebook, pg. 183",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 241,
+      "quote": "Save & Destroy.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 73",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 242,
+      "quote": "Seek no reward but the satisfaction of your Master!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 10",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 243,
+      "quote": "Seek honour as you act, and you will know no fear.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 248",
+      "tags": [
+        "Emperor",
+        "Duty & Honor"
+      ]
+    },
+    {
+      "id": 244,
+      "quote": "Serve the Emperor today - tomorrow you may be dead!",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 21",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 245,
+      "quote": "Serve the Emperor today, tomorrow you may be dead.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 68; Codex: Space Marines (4th Edition), pg. 11; Warhammer 40,000 5th Edition Rulebook, pg. 89",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 246,
+      "quote": "Sins hidden in the heart turn all into decay.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 133",
+      "tags": [
+        "War & Battle",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 247,
+      "quote": "Smite those that disbelieve, for they have turned from the light and fallen.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 141",
+      "tags": [
+        "Emperor",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 248,
+      "quote": "Sometimes the good must perish so that the rest survive. The lot of courage is to be sacrificed upon the altar of battle.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 78",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 249,
+      "quote": "Sorrow awaits the foolhardy",
+      "source": "Codex: Armageddon (3rd Edition), pg. 4",
+      "tags": [
+        "Imperial Wisdom"
+      ]
+    },
+    {
+      "id": 250,
+      "quote": "Speed the bolt that brings the end Of enemy and friend.",
+      "source": "Warhammer 40,000: Compendium, pg. 76",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 251,
+      "quote": "Step not from the path of the Emperor.",
+      "source": "Codex: Catachans (3rd Edition), pg. 21",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 252,
+      "quote": "Study the alien, the better to kill it",
+      "source": "Codex: Eldar (3rd Edition), pg. 3",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 253,
+      "quote": "Submit to His will",
+      "source": "Codex: Black Templars (4th Edition), pg. 24",
+      "tags": [
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 254,
+      "quote": "Success is commemorated. Failure merely remembered.",
+      "source": "Warhammer 40,000 Chapter Approved - The Book of the Astronomican, pg. 104; Warhammer 40,000 3rd Edition Rulebook, pg. 79; Warhammer 40,000 4th Edition Rulebook, pg. 200; Codex: Space Marines (4th Edition), pg. 27",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 255,
+      "quote": "Success is measured in blood; yours or your enemy's.",
+      "source": "Codex: Space Marines (4th Edition), pg. 52; Warhammer 40,000 4th Edition Rulebook, pg. 15",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 256,
+      "quote": "Survival is no birthright, but a prize wrested from an uncaring galaxy by forgotten heroes.",
+      "source": "Warhammer 40,000 5th Edition Rulebook, pg. 123",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 257,
+      "quote": "The Age of Battle has begun. The fires of war burn brightly from star to star. Everywhere the fortresses of Man are steeped in blood and ancient enemies appear from the darkness. Sensing weakness they gather for the kill. They know as we know that night approaches and all mortal life shall be extinguished. We know, as they cannot, that there shall be a new dawn and a new day when we will rise and they will be driven into the darkness forever.",
+      "source": "Warhammer 40,000 5th Edition Rulebook, pg. 116",
+      "tags": [
+        "War & Battle",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 258,
+      "quote": "The Alien dream is to dance on the grave of Mankind.",
+      "source": "Codex: Deathwatch - Watch-Fortress Edition, inscriptions on the books",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 259,
+      "quote": "The Alien fails because it cannot embrace the Emperor.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 138",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 260,
+      "quote": "The enemy of man lies in his own blood.",
+      "source": "White Dwarf 217 (UK) pg.28",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 261,
+      "quote": "The best way of improving a gun is to improve its ammunition.",
+      "source": "Imperial Armour Volume One - Second Edition: Imperial Guard, pg. 235",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 262,
+      "quote": "The blood of martyrs is the seed of the Imperium.",
+      "source": "Codex: Space Marines (4th Edition), pg. 16; Warhammer 40,000 3rd Edition Rulebook, pg. 67; Warhammer 40,000 4th Edition Rulebook, pg. 237",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 263,
+      "quote": "The burden of failure is the most terrible punishment of all",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 8",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 264,
+      "quote": "The common man is like a worm in the gut of a corpse, trapped inside a prison of cold flesh, helpless and uncaring, unaware even of the inevitability of its own doom.",
+      "source": "Codex Imperialis (Background Book), pg. 82",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 265,
+      "quote": "The cosmos cries out for salvation",
+      "source": "Warhammer 40,000: Compendium, pg. 89",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 266,
+      "quote": "The Dark Gods laugh at the foolishness of meek appeasers",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 233",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 267,
+      "quote": "The dead cannot cry out for revenge; it is a duty of the living to do so for them",
+      "source": "Imperial Armour Volume Two (First Edition), pg. 218",
+      "tags": [
+        "Emperor",
+        "Duty & Honor"
+      ]
+    },
+    {
+      "id": 268,
+      "quote": "The dead watch over us and guide us.",
+      "source": "Warhammer 40,000: Compendium, pg. 33",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 269,
+      "quote": "The difference between heresy and treachery is ignorance",
+      "source": "Codex: Black Templars (4th Edition), pg. 60; Warhammer 40,000 3rd Edition Rulebook, pg. 116; Warhammer 40,000 4th Edition Rulebook, pg. 201",
+      "tags": [
+        "Heresy",
+        "War & Battle",
+        "Wisdom & Mind",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 270,
+      "quote": "The dissident invites only retribution",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 25",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 271,
+      "quote": "The Emperor asks only that you hate",
+      "source": "Codex: Black Templars (4th Edition), pg. 236",
+      "tags": [
+        "Emperor",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 272,
+      "quote": "The Emperor asks only that you obey",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 168; Warhammer 40,000 5th Edition Rulebook, pg. 58",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 273,
+      "quote": "The Emperor bestows upon us the gift of intolerance.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 139",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 274,
+      "quote": "The Emperor commands; We act.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 186",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 275,
+      "quote": "The Emperor is our guiding light, a beacon of hope for humanity in a galaxy of darkness. As we serve him, he is our greatest servant. As we pray to him, his thoughts are only for us. And in the dark when the shadows threaten, the Emperor is with us, in spirit and in fact.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 112",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 276,
+      "quote": "The Emperor Knows.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 80 (corrected spelling from \"Emporer\" to \"Emperor\")",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 277,
+      "quote": "The Emperor knows, the Emperor is watching",
+      "source": "Codex: Black Templars (4th Edition), pg. 38",
+      "tags": [
+        "Emperor",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 278,
+      "quote": "The Emperor will not judge you by your medals and diplomas but by your scars.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 270",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 279,
+      "quote": "The Emperor's mercy is neither to forgive nor to forget but to accept.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 93",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 280,
+      "quote": "The Emperor's judgement is a blessing for the Faithful.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 96",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Faith & Zeal",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 281,
+      "quote": "The end justifies the means.",
+      "source": "Codex: Dark Angels (3rd Edition), pg. 21; Codex: Imperial Guard (3rd Edition, 2nd Codex), pg. 61",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 282,
+      "quote": "The ends always justify the means.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 109",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 283,
+      "quote": "The enemies of the Emperor fear many things. They fear discovery, defeat, despair and death. Yet there is one thing they fear above all others. They fear the wrath of the Space Marines!",
+      "source": "Codex: Space Marines (4th Edition), pg. 30",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 284,
+      "quote": "The fear of death is more to be dreaded than death itself",
+      "source": "Imperial Armour Volume Two (First Edition), pg. 214",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 285,
+      "quote": "The flesh is weak. The weak shall perish.",
+      "source": "Index Astartes III, pg. 3",
+      "tags": [
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 286,
+      "quote": "The flesh of your body is a reminder of your own mortality. Transcend the flesh and know immortality.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 142",
+      "tags": [
+        "Emperor",
+        "Wisdom & Mind",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 287,
+      "quote": "The foolish man puts his trust in luck, the wise man puts his trust in the Emperor.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 5",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 288,
+      "quote": "The future is trivia.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 104",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 289,
+      "quote": "The greatest man is but a ripple on the surface of space",
+      "source": "Warhammer 40,000: Compendium, pg. 76",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 290,
+      "quote": "The guilt of heresy weighs heavy on the soul.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 228",
+      "tags": [
+        "Heresy",
+        "War & Battle",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 291,
+      "quote": "The heretic shall reap as he sown - the bitter harvest of vengeance and death.",
+      "source": "Imperial Armour Volume Two, pg. 199",
+      "tags": [
+        "Emperor",
+        "Heresy",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 292,
+      "quote": "The industrious may escape death.",
+      "source": "White Dwarf 96 (UK), pg. 51, Chapter Approved",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 293,
+      "quote": "The justice of your action is measured by the strength of your conviction.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 234",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 294,
+      "quote": "The keenest blade is righteous hatred.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 95",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 295,
+      "quote": "The known is but the shadow of the knowable.",
+      "source": "Warhammer 40,000 Chapter Approved - The Book of the Astronomican, pg. 113",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 296,
+      "quote": "The loyal citizen shall walk in the light of truth. While the brigand shall forever in darkness murk.",
+      "source": "Dredge Runners (Audio Drama)",
+      "tags": [
+        "Imperial Wisdom"
+      ]
+    },
+    {
+      "id": 297,
+      "quote": "The loyal servant learns to love the lash",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 39",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 298,
+      "quote": "The man that sings the Emperor's praise will speak a blessing all his days.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 101",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Faith & Zeal",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 299,
+      "quote": "The man who has nothing can still have faith",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 243",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 300,
+      "quote": "The Martyr's grave is the foundation of the Imperium",
+      "source": "Warhammer 40,000 5th Edition Rulebook, pg. 39",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 301,
+      "quote": "The Martyr's grave is the keystone of the Imperium",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 172",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 302,
+      "quote": "The Mighty have no room for doubt",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 174",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 303,
+      "quote": "The more one learns of the alien, the more one will come to loath it.",
+      "source": "Regimental Standard Official Blog (last accessed 16 April 2016)",
+      "tags": [
+        "Imperial Wisdom"
+      ]
+    },
+    {
+      "id": 304,
+      "quote": "The mortal burden carried dutifully to its destination is the Emperor's greatest praise.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 122",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 305,
+      "quote": "The most deviant mind is often concealed in an unblemished body.",
+      "source": "Warhammer 40,000 5th Edition Rulebook, pg. 112",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 306,
+      "quote": "The Mutant bears his heresy on the outside, the Traitor hides it in his Soul.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 122",
+      "tags": [
+        "Heresy",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 307,
+      "quote": "The only crime is cowardice.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 222",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 308,
+      "quote": "The only reaction to treachery is vengeance.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 122",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 309,
+      "quote": "The path of righteousness leads to the palace of wisdom",
+      "source": "Imperial Armour Volume Two (First Edition), pg. 195",
+      "tags": [
+        "Emperor",
+        "Faith & Zeal",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 310,
+      "quote": "The Priesthood of Mars maintain our Emperor's throne. Thusly do they underpin the Imperium entire.",
+      "source": "Warhammer 40,000 5th Edition Rulebook, pg. 110",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Adeptus Mechanicus"
+      ]
+    },
+    {
+      "id": 311,
+      "quote": "The reward for treachery is retribution",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 59; Warhammer 40,000 5th Edition Rulebook, pg. 17",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 312,
+      "quote": "The rewards of tolerance are treachery and betrayal.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 16; Warhammer 40,000 5th Edition Rulebook, pg. 113; White Dwarf 455, pg. 75",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 313,
+      "quote": "The road to purity is drenched in the blood of the martyred.",
+      "source": "Codex: Imperial Guard (3rd Edition), pg. 29",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 314,
+      "quote": "The same hammer that shatters the glass, forges the steel.",
+      "source": "Imperial Armour Volume One - Second Edition: Imperial Guard, pg. 222",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 315,
+      "quote": "The seed of heresy rests in the minds of reasonable men",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 173",
+      "tags": [
+        "Heresy",
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 316,
+      "quote": "The strength of Humanity is the Emperor",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 158",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 317,
+      "quote": "The traitorʹs hand lies closer than you think.",
+      "source": "The Traitor's Hand (Novel), ch. 10",
+      "tags": [
+        "Heresy"
+      ]
+    },
+    {
+      "id": 318,
+      "quote": "The truly heroic trust in blind faith.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 261",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 319,
+      "quote": "The truly wise are always afraid",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 222",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 320,
+      "quote": "The truth is terrible to bear.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 197",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 321,
+      "quote": "The universe is a big place and, whatever happens, you will not be missed...",
+      "source": "Warhammer 40,000 5th Edition Rulebook, pg. 289",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 322,
+      "quote": "The wage of negligence is utter destruction.",
+      "source": "Codex: Armageddon (3rd Edition), pg. 5; Conquest of Armageddon (Novel), pre-prologue",
+      "tags": [
+        "Imperial Wisdom"
+      ]
+    },
+    {
+      "id": 323,
+      "quote": "The weak will always be led by the strong. Despise the weak for they shall flock to the call of the Daemon and the Renegade.",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 104",
+      "tags": [
+        "Emperor",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 324,
+      "quote": "The weapon slays where the hand wills Serve the Emperor!",
+      "source": "Warhammer 40,000: Compendium, pg. 188",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 325,
+      "quote": "The will of the Emperor is the might of the Imperium",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 63",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 326,
+      "quote": "The wise man learns from the deaths of others.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 33; Codex: Space Marines (4th Edition), pg. 25",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 327,
+      "quote": "The word of the Emperor is the rule of the Imperium",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 3",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 328,
+      "quote": "Their defeat is not a matter of when but how.",
+      "source": "White Dwarf September 2016, Biel-Tan Scorpion Super Heavy Tank, Description",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 329,
+      "quote": "There are no answers. Only Death.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 76",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 330,
+      "quote": "There are no walls strong enough to protect the enemies of Mankind.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 170",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 331,
+      "quote": "There is no being so foul as the traitor.",
+      "source": "Regimental Standard: The Betrayer (last accessed 7 September 2016)",
+      "tags": [
+        "Heresy"
+      ]
+    },
+    {
+      "id": 332,
+      "quote": "There is no cowardice in faith",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 257",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 333,
+      "quote": "There is no fear in conviction",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 256",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 334,
+      "quote": "There is no greater glory than a lifetime of dutiful service",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 92",
+      "tags": [
+        "Duty & Honor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 335,
+      "quote": "There is no mercy amongst the stars, only an eternity of war",
+      "source": "White Dwarf 450, pg. 31",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 336,
+      "quote": "There is no peace amongst the stars, only an eternity of carnage and slaughter and the laughter of thirsting gods.",
+      "source": "Codex: Chaos Space Marines (3rd Edition, 1st Codex), pg. 2; Warhammer 40,000 5th Edition Rulebook, pg. 185",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 337,
+      "quote": "There is no right or wrong in our profession. The present changes the past from moment to moment. Only pray for the future to vindicate your action.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 116",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 338,
+      "quote": "There is no salvation without suffering.",
+      "source": "Codex: Dark Angels (3rd Edition), pg. 20",
+      "tags": [
+        "Imperial Wisdom"
+      ]
+    },
+    {
+      "id": 339,
+      "quote": "There is no substitute for zeal",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 41; Warhammer 40,000 5th Edition Rulebook, pg. 40",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 340,
+      "quote": "There is no time for Peace. No respite No forgiveness There is only WAR!",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 69; Warhammer 40,000 5th Edition Rulebook, pg. 307",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 341,
+      "quote": "There is nothing to fear but failure",
+      "source": "Codex: Black Templars (4th Edition), pg. 25; Warhammer 40,000 4th Edition Rulebook, pg. 225",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 342,
+      "quote": "There is only the Emperor and he is our shield and protector",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 8",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 343,
+      "quote": "There is only the Emperor, and he is our shield and protector",
+      "source": "Codex: Black Templars (4th Edition), pg. 61; Warhammer 40,000 3rd Edition Rulebook, pg. 102",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 344,
+      "quote": "There is purity of purpose in the faith of the just",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 37",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 345,
+      "quote": "They who feast today do so in ignorance of their mortality. Tomorrow they must die or change.",
+      "source": "Warhammer 40,000 5th Edition Rulebook, pg. 109",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind"
+      ]
+    },
+    {
+      "id": 346,
+      "quote": "This is a dark and terrible era where you will find little comfort or hope. If you want to take part in the adventure, then prepare yourself now.",
+      "source": "Warhammer 40,000 5th Edition Rulebook, pg. 1",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 347,
+      "quote": "Those who act in honour cannot fail.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 128",
+      "tags": [
+        "Emperor",
+        "Duty & Honor"
+      ]
+    },
+    {
+      "id": 348,
+      "quote": "Thou shalt not!",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 164",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 349,
+      "quote": "Though my guards may sleep and ships may lie at anchor, our foes know full well that big guns never tire.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 83",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 350,
+      "quote": "Though silver in your palms weighs light Compared to death by blast and sword, Do not shy the hopeless fight, For endeavour is its own reward.",
+      "source": "Warhammer 40,000: Rogue Trader, pg. 115",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 351,
+      "quote": "Thought begets Heresy; Heresy begets Retribution.",
+      "source": "Realm of Chaos: Slaves to Darkness, p. 214; Codex: Black Templars (4th Edition), pg. 59; Warhammer 40,000 3rd Edition Rulebook, pg. 59; Codex: Assassins (3rd Edition), pg. 2; Warhammer 40,000 4th Edition Rulebook, pg. 194",
+      "tags": [
+        "Heresy",
+        "War & Battle",
+        "Wisdom & Mind",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 352,
+      "quote": "Through the destruction of our enemies we earn our salvation.",
+      "source": "Crusade for Armageddon (Novel), pre-prologue; Warhammer 40,000 3rd Edition Rulebook, pg. 48",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 353,
+      "quote": "Timidity begets Indecision; Indecision begets Treachery",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 195",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 354,
+      "quote": "To live for the Emperor is glorious, to die for Him is doubly thus",
+      "source": "White Dwarf November 2019, pg. 50",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 355,
+      "quote": "To live in peace is to know death. To die in battle is to know peace.",
+      "source": "White Dwarf 217 (UK) pg.28",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 356,
+      "quote": "To a Space Marine the boltgun is far more than a weapon, it is an instrument of Mankind's divinity, the bringer of death to his foes, whose howling blast is a prayer to the gods of battle.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 54; Warhammer 40,000 4th Edition Rulebook, pg. 27; Warhammer 40,000 5th Edition Rulebook, pg. 27",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 357,
+      "quote": "To admit defeat is to blaspheme against the Emperor",
+      "source": "Codex: Black Templars (4th Edition), pg. 3",
+      "tags": [
+        "Emperor",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 358,
+      "quote": "To compromise is to err",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 245",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 359,
+      "quote": "To die without purpose is not a service.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 193",
+      "tags": [
+        "Emperor",
+        "Duty & Honor"
+      ]
+    },
+    {
+      "id": 360,
+      "quote": "To err is to invite retribution.",
+      "source": "Warhammer 40,000: Rogue Trader, \"Counters\" section at end of book",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 361,
+      "quote": "To fail in the service of the Emperor is the greatest of sins.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 182",
+      "tags": [
+        "Emperor",
+        "Duty & Honor",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 362,
+      "quote": "To fault the Emperor's Word is an act of sedition",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 250",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 363,
+      "quote": "To question is to doubt",
+      "source": "Codex: Black Templars (4th Edition), pg. 34; Warhammer 40,000 4th Edition Rulebook, pg. 219",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 364,
+      "quote": "To question the Emperor's will is to embrace heresy.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 134",
+      "tags": [
+        "Emperor",
+        "Heresy",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 365,
+      "quote": "To serve Him is to worship Him.",
+      "source": "Codex: Space Marines (4th Edition), pg. 4",
+      "tags": [
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 366,
+      "quote": "To withdraw in disgust is not apathy.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 124",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 367,
+      "quote": "To withdraw in disgust is not cowardice.",
+      "source": "Warhammer 40,000 3rd Edition Rulebook, pg. 117",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 368,
+      "quote": "True faith is blind and justified",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 190",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal"
+      ]
+    },
+    {
+      "id": 369,
+      "quote": "True happiness stems only from duty",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 187",
+      "tags": [
+        "Duty & Honor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 370,
+      "quote": "Truth begets hatred",
+      "source": "Codex: Black Templars (4th Edition), pg. 54",
+      "tags": [
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 371,
+      "quote": "Trying to understand weakens the will to act",
+      "source": "Codex: Black Templars (4th Edition), pg. 242",
+      "tags": [
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 372,
+      "quote": "Vengeance is your sword. Hatred is your shield. Loyalty is your Armour.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 60",
+      "tags": [
+        "Emperor",
+        "Duty & Honor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 373,
+      "quote": "Victory needs no explanation, defeat allows none.",
+      "source": "Codex: Space Marines (4th Edition), pg. 56; Warhammer 40,000 3rd Edition Rulebook, pg. 57;",
+      "tags": [
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 374,
+      "quote": "Victory needs no explanation; Defeat allows none.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 85",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 375,
+      "quote": "Victory through superior firepower.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 52",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 376,
+      "quote": "Vigilance is the brother of truth",
+      "source": "Codex: Necrons (3rd Edition), pg. 5",
+      "tags": [
+        "Imperial Wisdom"
+      ]
+    },
+    {
+      "id": 377,
+      "quote": "Vigilance is your shield",
+      "source": "Codex: Necrons (3rd Edition), pg. 10",
+      "tags": [
+        "Imperial Wisdom"
+      ]
+    },
+    {
+      "id": 378,
+      "quote": "Watch for the Mutant",
+      "source": "Warhammer 40,000: Compendium, pg. 167",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 379,
+      "quote": "We are all a weapon in the hands of the Emperor.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 110",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 380,
+      "quote": "We are bound by the blood of Martyrs.",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 94",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 381,
+      "quote": "We can rebuild them",
+      "source": "Warhammer 40,000: Compendium, pg. 6",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 382,
+      "quote": "We cannot afford mercy",
+      "source": "Imperial Armour Volume Two - Space Marines and Forces of the Inquisition, pg. 124",
+      "tags": [
+        "Emperor",
+        "Space Marines",
+        "Inquisition"
+      ]
+    },
+    {
+      "id": 383,
+      "quote": "We must be as unsleeping in vigilance, swift in judgement, merciless in deed.",
+      "source": "Warhammer 40,000 5th Edition Rulebook, pg. 110",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 384,
+      "quote": "We must endure the present so that those who follow may continue our endeavours.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 228",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 385,
+      "quote": "We shall carry our word, We will correct and unify, Hail the Emperor!",
+      "source": "Warhammer 40,000: Compendium, pg. 92",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 386,
+      "quote": "Weigh the fist that strikes men down And salutes the battle won.",
+      "source": "Warhammer 40,000: Compendium, pg. 74",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 387,
+      "quote": "What a pity it is that we can die but once to serve our Emperor!",
+      "source": "Imperial Armour Volume Two (First Edition), pg. 227",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 388,
+      "quote": "What fear of death have we who know there is immortality in the great and noble deeds of men?",
+      "source": "Warhammer 40,000 5th Edition Rulebook, pg. 110",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 389,
+      "quote": "What is the terror of death? That we die our work incomplete. What is the joy of life? To die knowing our task is done.",
+      "source": "Codex Imperialis (Background Book), pg. 4; Warhammer 40,000 4th Edition Rulebook, pg. 78 Inferno! 1 Terror of Death (Comic) pg.56 & 64",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 390,
+      "quote": "What is your life? My honour is my life. What is your fate? My duty is my fate. What is your fear? My fear is to fall. What is your reward? My salvation is my reward. What is your craft? My craft is death. What is your pledge? My pledge is eternal service.",
+      "source": "Codex: Armageddon (3rd Edition), pg. 22",
+      "tags": [
+        "Duty & Honor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 391,
+      "quote": "Will is not enough. Act!",
+      "source": "Imperial Armour Volume One - Second Edition: Imperial Guard, pg. 220",
+      "tags": [
+        "Emperor"
+      ]
+    },
+    {
+      "id": 392,
+      "quote": "Wisdom is the beginning of fear.",
+      "source": "Warhammer 40,000: Compendium, pg. 80; Codex: Dark Eldar (3rd Edition), pg. 4; Codex: Eye of Terror (3rd Edition), pg. 15; Warhammer 40,000 4th Edition Rulebook, pg. 121; Codex: Black Templars (4th Edition), pg. 53; Warhammer 40,000 5th Edition Rulebook, pg. 3",
+      "tags": [
+        "War & Battle",
+        "Wisdom & Mind",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 393,
+      "quote": "Without Him there is nothing.",
+      "source": "Codex: Space Marines (4th Edition), pg. 63",
+      "tags": [
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 394,
+      "quote": "Words do not win wars. Deeds do.",
+      "source": "Imperial Armour - Imperial Vehicles for Warhammer 40,000, pg. 60",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 395,
+      "quote": "Work earns salvation",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 227",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 396,
+      "quote": "You are either for the Emperor or you are his bitter foe",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 252",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 397,
+      "quote": "You are not required to think, only to act",
+      "source": "Warhammer 40,000 4th Edition Rulebook, pg. 170",
+      "tags": [
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 398,
+      "quote": "You are the Emperor's Chosen. Hear His great anger in the roar of the bolt pistol. See His almighty fury in the blades of the chainsword. Feel His undying strength in the protection of your armour.",
+      "source": "Codex: Blood Angels (3rd Edition), pg. 3",
+      "tags": [
+        "Emperor",
+        "War & Battle",
+        "Space Marines"
+      ]
+    },
+    {
+      "id": 399,
+      "quote": "You carry the Emperor's will as your torch. With it destroy the shadows.",
+      "source": "Warhammer 40,000: Compendium, pg. 13",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 400,
+      "quote": "Your freedom must be bought in the currency of toil, tears and blood; a price all men can pay.",
+      "source": "Imperial Armour Volume One - Imperial Guard and Imperial Navy, pg. 202",
+      "tags": [
+        "Emperor",
+        "War & Battle"
+      ]
+    },
+    {
+      "id": 401,
+      "quote": "Your honour is your life. Let none dispute it.",
+      "source": "Conquest of Armageddon (Novel), pre-prologue",
+      "tags": [
+        "Duty & Honor"
+      ]
+    },
+    {
+      "id": 402,
+      "quote": "Zeal is its own excuse",
+      "source": "Codex: Black Templars (4th Edition), pg. 56; Warhammer 40,000 4th Edition Rulebook, pg. 56",
+      "tags": [
+        "War & Battle",
+        "Faith & Zeal",
+        "Space Marines"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+name: Update Quotes from Lexicanum Wiki
+
+on:
+  # Runs on the 1st of every month to check for new wiki entries
+  schedule:
+    - cron: '0 0 1 * *'
+
+  # Allows manual triggering from GitHub Actions UI
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-quotes:
+    name: Harvest Latest Quotes from Lexicanum
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Harvest Quotes from Lexicanum
+        run: |
+          python src/scraper.py
+
+      - name: Commit and Push Changes If Updated
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/quotes.json
+          if git diff --staged --quiet; then
+            echo "No changes in quotes dataset. Database is up to date."
+          else
+            git commit -m "chore(data): automated update of Lexicanum quotes dataset"
+            git push
+          fi
