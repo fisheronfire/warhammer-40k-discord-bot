@@ -1,6 +1,7 @@
 """
 Warhammer 40K Thought of the Day - Discord Dispatcher
-Supports Discord Webhooks, Discord Bot REST API, and Dry-run terminal preview.
+Supports single and multi-server Discord Webhook broadcasting,
+Discord Bot REST API, and Dry-run terminal preview.
 Designed for GitHub Actions scheduled execution.
 """
 
@@ -11,7 +12,7 @@ import time
 import argparse
 import urllib.request
 import urllib.error
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 
 # Ensure UTF-8 output encoding for cross-platform terminals (Windows/Linux/macOS)
 if sys.stdout.encoding != "utf-8":
@@ -23,6 +24,29 @@ if sys.stdout.encoding != "utf-8":
 
 from quotes_manager import QuotesManager
 from embed_builder import build_webhook_payload, build_quote_embed
+
+
+def parse_webhook_urls(raw_input: Optional[str]) -> List[str]:
+    """Parses single, comma-separated, newline-separated, or JSON list of webhook URLs."""
+    if not raw_input:
+        return []
+    
+    clean = raw_input.strip()
+    if clean.startswith("[") and clean.endswith("]"):
+        try:
+            parsed = json.loads(clean)
+            if isinstance(parsed, list):
+                return [u.strip() for u in parsed if isinstance(u, str) and u.strip()]
+        except Exception:
+            pass
+
+    # Split by comma or newline
+    urls = []
+    for line in clean.replace(",", "\n").splitlines():
+        u = line.strip()
+        if u and u.startswith("http"):
+            urls.append(u)
+    return urls
 
 
 def send_discord_webhook(webhook_url: str, payload: Dict[str, Any], max_retries: int = 3) -> bool:
@@ -62,6 +86,21 @@ def send_discord_webhook(webhook_url: str, payload: Dict[str, Any], max_retries:
 
     print("[-] Failed to dispatch webhook after maximum retry attempts.")
     return False
+
+
+def broadcast_discord_webhooks(webhook_urls: List[str], payload: Dict[str, Any]) -> int:
+    """Broadcasts embed payload across multiple Discord server webhooks."""
+    success_count = 0
+    print(f"[*] Broadcasting Thought for the Day to {len(webhook_urls)} Discord server(s)...")
+    for i, url in enumerate(webhook_urls, 1):
+        # Mask webhook token for clean logs
+        masked = url[:35] + "..." + url[-6:] if len(url) > 45 else url
+        print(f" -> [{i}/{len(webhook_urls)}] Transmitting to server: {masked}")
+        if send_discord_webhook(url, payload):
+            success_count += 1
+        time.sleep(0.5)  # Friendly spacing between servers
+    print(f"[+] Broadcast complete: {success_count}/{len(webhook_urls)} servers successfully received the transmission.")
+    return success_count
 
 
 def send_discord_bot_rest(bot_token: str, channel_id: str, payload: Dict[str, Any], max_retries: int = 3) -> bool:
@@ -124,8 +163,8 @@ def print_terminal_preview(quote_data: Dict[str, Any], color: str) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Warhammer 40K Thought for the Day Discord Poster")
-    parser.add_argument("--webhook", type=str, default=os.getenv("DISCORD_WEBHOOK_URL"),
-                        help="Discord Webhook URL (or set DISCORD_WEBHOOK_URL env var)")
+    parser.add_argument("--webhook", type=str, default=os.getenv("DISCORD_WEBHOOK_URL") or os.getenv("DISCORD_WEBHOOK_URLS"),
+                        help="Discord Webhook URL or comma-separated URLs (or set DISCORD_WEBHOOK_URL env var)")
     parser.add_argument("--token", type=str, default=os.getenv("DISCORD_BOT_TOKEN"),
                         help="Discord Bot Token (or set DISCORD_BOT_TOKEN env var)")
     parser.add_argument("--channel", type=str, default=os.getenv("DISCORD_CHANNEL_ID"),
@@ -167,9 +206,10 @@ def main() -> int:
 
     # Build Payload
     payload = build_webhook_payload(quote_data, color=args.color)
+    webhook_urls = parse_webhook_urls(args.webhook)
 
     # If dry-run or no credentials provided
-    if args.dry_run or (not args.webhook and not (args.token and args.channel)):
+    if args.dry_run or (not webhook_urls and not (args.token and args.channel)):
         print("[*] [DRY RUN MODE] No webhook dispatched.")
         print_terminal_preview(quote_data, args.color)
         print("Embed JSON Payload:")
@@ -181,9 +221,9 @@ def main() -> int:
     # Dispatch to Discord
     print_terminal_preview(quote_data, args.color)
 
-    if args.webhook:
-        success = send_discord_webhook(args.webhook, payload)
-        return 0 if success else 1
+    if webhook_urls:
+        success_count = broadcast_discord_webhooks(webhook_urls, payload)
+        return 0 if success_count > 0 else 1
     elif args.token and args.channel:
         success = send_discord_bot_rest(args.token, args.channel, payload)
         return 0 if success else 1

@@ -74,6 +74,15 @@ class TestDiscordWebhookIntegration(unittest.TestCase):
         self.assertIn("Warhammer 40,000 4th Edition Rulebook", embed["fields"][0]["value"])
         self.assertEqual(embed["fields"][0]["name"], "📜 Canonical Source")
 
+    def test_multi_webhook_parsing(self):
+        from post_quote import parse_webhook_urls
+        raw = "https://discord.com/api/webhooks/1/a, https://discord.com/api/webhooks/2/b\nhttps://discord.com/api/webhooks/3/c"
+        urls = parse_webhook_urls(raw)
+        self.assertEqual(len(urls), 3)
+        self.assertEqual(urls[0], "https://discord.com/api/webhooks/1/a")
+        self.assertEqual(urls[1], "https://discord.com/api/webhooks/2/b")
+        self.assertEqual(urls[2], "https://discord.com/api/webhooks/3/c")
+
 
 if __name__ == "__main__":
     unittest.main()
