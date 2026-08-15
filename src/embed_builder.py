@@ -18,11 +18,10 @@ COLOR_PALETTES = {
     "templar": 0xE0E1DD,     # Black Templar Ivory / Silver
 }
 
-# Canonical Warhammer 40K Imperial Aquila & Cogitator Icons
-AQUILA_THUMBNAIL_URL = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/skull.svg"
-# High-res transparent Imperial Aquila icon
-IMPERIAL_AQUILA_URL = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Aquila_Double-Headed_Eagle.svg/512px-Aquila_Double-Headed_Eagle.svg.png"
-DEFAULT_AVATAR_URL = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Aquila_Double-Headed_Eagle.svg/512px-Aquila_Double-Headed_Eagle.svg.png"
+# Commissar Bonski Official Avatar & Embed Artwork (Hosted on GitHub Repo CDN)
+COMMISSAR_BONSKI_IMAGE_URL = "https://raw.githubusercontent.com/fisheronfire/warhammer-40k-discord-bot/main/assets/commissar_bonski.png"
+DEFAULT_AVATAR_URL = COMMISSAR_BONSKI_IMAGE_URL
+DEFAULT_THUMBNAIL_URL = COMMISSAR_BONSKI_IMAGE_URL
 
 # Solemn Imperial Litany & Admonition Footers
 IMPERIAL_ADMONITIONS = [
@@ -97,7 +96,7 @@ def build_quote_embed(
     color: Optional[str] = "gold",
     custom_title: Optional[str] = None,
     include_stardate: bool = True,
-    thumbnail_url: Optional[str] = IMPERIAL_AQUILA_URL
+    thumbnail_url: Optional[str] = DEFAULT_THUMBNAIL_URL
 ) -> Dict[str, Any]:
     """
     Builds a Discord embed payload according to Discord API specs.
@@ -161,12 +160,13 @@ def build_webhook_payload(
     color: Optional[str] = "gold",
     bot_name: str = "Commissar Bonski",
     avatar_url: Optional[str] = DEFAULT_AVATAR_URL,
+    thumbnail_url: Optional[str] = DEFAULT_THUMBNAIL_URL,
     custom_content: Optional[str] = None
 ) -> Dict[str, Any]:
     """
     Builds the full JSON payload for Discord Webhook delivery.
     """
-    embed = build_quote_embed(quote_data, color=color)
+    embed = build_quote_embed(quote_data, color=color, thumbnail_url=thumbnail_url)
     
     payload = {
         "username": bot_name,
