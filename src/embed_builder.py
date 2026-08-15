@@ -1,5 +1,5 @@
 """
-Warhammer 40K Imperial Cogitator Discord Embed Builder
+Warhammer 40K Commissar Bonski Discord Embed Builder
 Constructs rich, thematic Discord embeds with Imperial Stardates, Gothic styling,
 and canonical Warhammer 40,000 aesthetic.
 """
@@ -112,7 +112,7 @@ def build_quote_embed(
     admonition = random.choice(IMPERIAL_ADMONITIONS)
     
     ref_str = f"{quote_id:03d}" if isinstance(quote_id, int) else str(quote_id)
-    title = custom_title or f"⚔️ THOUGHT FOR THE DAY // REF: #{ref_str} ⚔️"
+    title = custom_title or f"⚔️ COMMISSAR BONSKI // THOUGHT FOR THE DAY #{ref_str} ⚔️"
     
     fields = [
         {
@@ -143,7 +143,7 @@ def build_quote_embed(
         "color": embed_color,
         "fields": fields,
         "footer": {
-            "text": f"Adeptus Telepathica Cogitator • {admonition}"
+            "text": f"Commissar Bonski • {admonition}"
         },
         "timestamp": datetime.now(timezone.utc).isoformat()
     }
@@ -159,7 +159,7 @@ def build_quote_embed(
 def build_webhook_payload(
     quote_data: Dict[str, Any],
     color: Optional[str] = "gold",
-    bot_name: str = "Imperial Cogitator",
+    bot_name: str = "Commissar Bonski",
     avatar_url: Optional[str] = DEFAULT_AVATAR_URL,
     custom_content: Optional[str] = None
 ) -> Dict[str, Any]:

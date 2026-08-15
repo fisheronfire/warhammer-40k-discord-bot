@@ -30,7 +30,7 @@ def send_discord_webhook(webhook_url: str, payload: Dict[str, Any], max_retries:
     data = json.dumps(payload).encode("utf-8")
     headers = {
         "Content-Type": "application/json",
-        "User-Agent": "Warhammer40k-ImperialCogitator/1.0"
+        "User-Agent": "Warhammer40k-CommissarBonski/1.0"
     }
 
     for attempt in range(1, max_retries + 1):
@@ -38,7 +38,7 @@ def send_discord_webhook(webhook_url: str, payload: Dict[str, Any], max_retries:
             req = urllib.request.Request(webhook_url, data=data, headers=headers, method="POST")
             with urllib.request.urlopen(req, timeout=15) as response:
                 if response.status in (200, 204):
-                    print(f"[+] Thought for the Day successfully dispatched to Discord Webhook! (HTTP {response.status})")
+                    print(f"[+] Thought for the Day successfully dispatched by Commissar Bonski! (HTTP {response.status})")
                     return True
         except urllib.error.HTTPError as e:
             err_body = e.read().decode("utf-8", errors="ignore")
@@ -75,7 +75,7 @@ def send_discord_bot_rest(bot_token: str, channel_id: str, payload: Dict[str, An
     headers = {
         "Authorization": f"Bot {bot_token}",
         "Content-Type": "application/json",
-        "User-Agent": "Warhammer40k-ImperialCogitator/1.0"
+        "User-Agent": "Warhammer40k-CommissarBonski/1.0"
     }
 
     for attempt in range(1, max_retries + 1):
@@ -83,7 +83,7 @@ def send_discord_bot_rest(bot_token: str, channel_id: str, payload: Dict[str, An
             req = urllib.request.Request(url, data=data, headers=headers, method="POST")
             with urllib.request.urlopen(req, timeout=15) as response:
                 if response.status in (200, 201):
-                    print(f"[+] Thought for the Day successfully posted via Discord Bot REST API! (HTTP {response.status})")
+                    print(f"[+] Thought for the Day successfully posted by Commissar Bonski via REST API! (HTTP {response.status})")
                     return True
         except urllib.error.HTTPError as e:
             err_body = e.read().decode("utf-8", errors="ignore")
@@ -102,7 +102,7 @@ def send_discord_bot_rest(bot_token: str, channel_id: str, payload: Dict[str, An
 
 
 def print_terminal_preview(quote_data: Dict[str, Any], color: str) -> None:
-    """Prints a styled representation of the Imperial Cogitator transmission."""
+    """Prints a styled representation of the Commissar Bonski transmission."""
     stardate = calculate_imperial_stardate()
     q_id = quote_data.get("id", "---")
     quote = quote_data.get("quote", "")
@@ -110,7 +110,7 @@ def print_terminal_preview(quote_data: Dict[str, Any], color: str) -> None:
     tags = ", ".join(quote_data.get("tags", []))
 
     print("\n" + "=" * 70)
-    print(" === ADEPTUS TELEPATHICA // IMPERIAL COGITATOR TRANSMISSION === ")
+    print(" === COMMISSAR BONSKI // IMPERIAL TRANSMISSION === ")
     print("=" * 70)
     print(f" Stardate      : {stardate}")
     print(f" Thought ID    : #{q_id}")

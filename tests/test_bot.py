@@ -142,8 +142,8 @@ class TestEmbedBuilder(unittest.TestCase):
             "source": "Warhammer 40,000 4th Edition Rulebook, pg. 120",
             "tags": ["Wisdom & Mind"]
         }
-        payload = build_webhook_payload(quote_sample, bot_name="Imperial Cogitator")
-        self.assertEqual(payload["username"], "Imperial Cogitator")
+        payload = build_webhook_payload(quote_sample, bot_name="Commissar Bonski")
+        self.assertEqual(payload["username"], "Commissar Bonski")
         self.assertIn("avatar_url", payload)
         self.assertEqual(len(payload["embeds"]), 1)
 
