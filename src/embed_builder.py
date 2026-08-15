@@ -1,5 +1,5 @@
 """
-Warhammer 40K Commissar Bonski Discord Embed Builder
+Warhammer 40K Commissar Boneski Discord Embed Builder
 Constructs rich, thematic Discord embeds with Imperial Stardates, Gothic styling,
 and canonical Warhammer 40,000 aesthetic.
 """
@@ -18,10 +18,10 @@ COLOR_PALETTES = {
     "templar": 0xE0E1DD,     # Black Templar Ivory / Silver
 }
 
-# Commissar Bonski Official Avatar & Embed Artwork (Hosted on GitHub Repo CDN)
-COMMISSAR_BONSKI_IMAGE_URL = "https://raw.githubusercontent.com/fisheronfire/warhammer-40k-discord-bot/main/assets/commissar_bonski.png"
-DEFAULT_AVATAR_URL = COMMISSAR_BONSKI_IMAGE_URL
-DEFAULT_THUMBNAIL_URL = COMMISSAR_BONSKI_IMAGE_URL
+# Commissar Boneski Official Avatar & Embed Artwork (Hosted on GitHub Repo CDN)
+COMMISSAR_BONESKI_IMAGE_URL = "https://raw.githubusercontent.com/fisheronfire/warhammer-40k-discord-bot/main/assets/commissar_boneski.png"
+DEFAULT_AVATAR_URL = COMMISSAR_BONESKI_IMAGE_URL
+DEFAULT_THUMBNAIL_URL = COMMISSAR_BONESKI_IMAGE_URL
 
 # Solemn Imperial Litany & Admonition Footers
 IMPERIAL_ADMONITIONS = [
@@ -111,7 +111,7 @@ def build_quote_embed(
     admonition = random.choice(IMPERIAL_ADMONITIONS)
     
     ref_str = f"{quote_id:03d}" if isinstance(quote_id, int) else str(quote_id)
-    title = custom_title or f"⚔️ COMMISSAR BONSKI // THOUGHT FOR THE DAY #{ref_str} ⚔️"
+    title = custom_title or f"⚔️ COMMISSAR BONESKI // THOUGHT FOR THE DAY #{ref_str} ⚔️"
     
     fields = [
         {
@@ -142,7 +142,7 @@ def build_quote_embed(
         "color": embed_color,
         "fields": fields,
         "footer": {
-            "text": f"Commissar Bonski • {admonition}"
+            "text": f"Commissar Boneski • {admonition}"
         },
         "timestamp": datetime.now(timezone.utc).isoformat()
     }
@@ -158,7 +158,7 @@ def build_quote_embed(
 def build_webhook_payload(
     quote_data: Dict[str, Any],
     color: Optional[str] = "gold",
-    bot_name: str = "Commissar Bonski",
+    bot_name: str = "Commissar Boneski",
     avatar_url: Optional[str] = DEFAULT_AVATAR_URL,
     thumbnail_url: Optional[str] = DEFAULT_THUMBNAIL_URL,
     custom_content: Optional[str] = None

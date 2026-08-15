@@ -1,11 +1,11 @@
-# ⚔️ Commissar Bonski - Warhammer 40K "Thought for the Day" Discord Bot ⚔️
+# ⚔️ Commissar Boneski - Warhammer 40K "Thought for the Day" Discord Bot ⚔️
 
-[![Warhammer 40K Thought of the Day](https://img.shields.io/badge/Warhammer%2040K-Commissar%20Bonski-gold.svg)](https://wh40k.lexicanum.com/wiki/Thought_for_the_day)
+[![Warhammer 40K Thought of the Day](https://img.shields.io/badge/Warhammer%2040K-Commissar%20Boneski-gold.svg)](https://wh40k.lexicanum.com/wiki/Thought_for_the_day)
 [![Hosted on GitHub Actions](https://img.shields.io/badge/Hosted%20On-GitHub%20Actions%20(100%25%20Free)-2088FF.svg?logo=github-actions)](.github/workflows/daily_quote.yml)
 [![Quotes Harvested](https://img.shields.io/badge/Canon%20Quotes-402%2B%20from%20Lexicanum-red.svg)](data/quotes.json)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-An automated, serverless Discord bot hosted **100% free on GitHub** via **GitHub Actions**. Every 24 hours, **Commissar Bonski** transmits a canonical Warhammer 40,000 *"Thought for the Day"* (with official lore citations and calculated Imperial Stardates) directly to your Discord server.
+An automated, serverless Discord bot hosted **100% free on GitHub** via **GitHub Actions**. Every 24 hours, **Commissar Boneski** transmits a canonical Warhammer 40,000 *"Thought for the Day"* (with official lore citations and calculated Imperial Stardates) directly to your Discord server.
 
 Harvested directly from the official [Lexicanum Warhammer 40K Wiki: Thought for the Day](https://wh40k.lexicanum.com/wiki/Thought_for_the_day).
 
@@ -34,7 +34,7 @@ Harvested directly from the official [Lexicanum Warhammer 40K Wiki: Thought for 
 
 ```
 ======================================================================
- === COMMISSAR BONSKI // IMPERIAL TRANSMISSION === 
+ === COMMISSAR BONESKI // IMPERIAL TRANSMISSION === 
 ======================================================================
  Stardate      : 0.621.026.M42
  Thought ID    : #179
@@ -57,7 +57,7 @@ Harvested directly from the official [Lexicanum Warhammer 40K Wiki: Thought for 
 ### Step 1: Create a Discord Webhook (30 seconds)
 1. In your Discord server, go to the text channel where you want quotes posted (e.g. `#thought-for-the-day` or `#general`).
 2. Click **⚙️ Edit Channel** (channel settings) ➡️ **Integrations** ➡️ **Webhooks** ➡️ **New Webhook**.
-3. Name it **Commissar Bonski** and click **Copy Webhook URL**.
+3. Name it **Commissar Boneski** and click **Copy Webhook URL**.
 
 ---
 

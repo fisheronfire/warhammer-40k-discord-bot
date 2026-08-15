@@ -55,7 +55,7 @@ class TestDiscordWebhookIntegration(unittest.TestCase):
         webhook_url = f"http://127.0.0.1:{self.port}/api/webhooks/123456/abcdef"
         mgr = QuotesManager()
         quote_data = mgr.get_by_id(1)  # "A broad mind lacks focus."
-        payload = build_webhook_payload(quote_data, color="gold", bot_name="Commissar Bonski")
+        payload = build_webhook_payload(quote_data, color="gold", bot_name="Commissar Boneski")
 
         # Dispatch via the webhook client
         success = send_discord_webhook(webhook_url, payload)
@@ -65,7 +65,7 @@ class TestDiscordWebhookIntegration(unittest.TestCase):
         self.assertEqual(len(MockDiscordHandler.received_payloads), 1)
         received = MockDiscordHandler.received_payloads[0]
 
-        self.assertEqual(received["username"], "Commissar Bonski")
+        self.assertEqual(received["username"], "Commissar Boneski")
         self.assertIn("embeds", received)
         self.assertEqual(len(received["embeds"]), 1)
 

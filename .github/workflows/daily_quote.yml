@@ -1,4 +1,4 @@
-name: Commissar Bonski - Thought for the Day
+name: Commissar Boneski - Thought for the Day
 
 on:
   # Scheduled to run once a day at 12:00 UTC (8:00 AM EST / 5:00 AM PST)
@@ -50,7 +50,7 @@ permissions:
 
 jobs:
   post-quote:
-    name: Transmit Commissar Bonski's Thought of the Day
+    name: Transmit Commissar Boneski's Thought of the Day
     runs-on: ubuntu-latest
 
     steps:
