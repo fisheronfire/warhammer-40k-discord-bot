@@ -5,7 +5,6 @@ and canonical Warhammer 40,000 aesthetic.
 """
 
 from datetime import datetime, timezone
-import random
 from typing import Dict, Any, Optional, List
 
 # Color Palettes (in Decimal for Discord API)
@@ -23,30 +22,12 @@ COMMISSAR_BONESKI_IMAGE_URL = "https://raw.githubusercontent.com/fisheronfire/wa
 DEFAULT_AVATAR_URL = COMMISSAR_BONESKI_IMAGE_URL
 DEFAULT_THUMBNAIL_URL = COMMISSAR_BONESKI_IMAGE_URL
 
-# Solemn Imperial Litany & Admonition Footers
-IMPERIAL_ADMONITIONS = [
-    "The Emperor Protects.",
-    "Thought begets Heresy; Heresy begets Retribution.",
-    "Knowledge is power, guard it well.",
-    "There is only the Emperor, and He is our Shield and Protector.",
-    "Innocence proves nothing.",
-    "Blessed is the mind too small for doubt.",
-    "Hope is the first step on the road to disappointment.",
-    "To question is to doubt. To doubt is to falter.",
-    "Zeal is its own excuse.",
-    "A suspicious mind is a healthy mind.",
-    "Success is commemorated; Failure merely remembered.",
-    "Serve the Emperor today, tomorrow you may be dead.",
-    "Faith without deeds is worthless.",
-    "Only in death does duty end."
-]
-
 
 def calculate_imperial_stardate(dt: Optional[datetime] = None) -> str:
     """
     Calculates canonical Warhammer 40,000 Imperial Stardate.
     Format: [Check digit].[Year fraction].[Year within Millennium].[Millennium]
-    e.g., 0.624.026.M42
+    e.g., 0.621.026.M42
     """
     if dt is None:
         dt = datetime.now(timezone.utc)
@@ -100,6 +81,8 @@ def build_quote_embed(
 ) -> Dict[str, Any]:
     """
     Builds a Discord embed payload according to Discord API specs.
+    Places the single Thought of the Day in the primary description position,
+    with exact matching source citation, tags, and date.
     """
     quote_text = quote_data.get("quote", "The Emperor Protects.")
     source_text = quote_data.get("source", "Imperial Wisdom")
@@ -108,7 +91,6 @@ def build_quote_embed(
     
     embed_color = get_embed_color(color)
     stardate = calculate_imperial_stardate()
-    admonition = random.choice(IMPERIAL_ADMONITIONS)
     
     ref_str = f"{quote_id:03d}" if isinstance(quote_id, int) else str(quote_id)
     title = custom_title or f"⚔️ COMMISSAR BONESKI // THOUGHT FOR THE DAY #{ref_str} ⚔️"
@@ -142,7 +124,7 @@ def build_quote_embed(
         "color": embed_color,
         "fields": fields,
         "footer": {
-            "text": f"Commissar Boneski • {admonition}"
+            "text": "Commissar Boneski • Daily Imperial Proclamation"
         },
         "timestamp": datetime.now(timezone.utc).isoformat()
     }
