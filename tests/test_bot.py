@@ -59,6 +59,25 @@ class TestQuotesManager(unittest.TestCase):
         # Next calendar day -> rotated quote
         self.assertNotEqual(quote_a["id"], quote_next["id"])
 
+    def test_no_repeats_in_month(self):
+        """Verify that every single day in a month receives a unique quote (0 duplicates)."""
+        month_quotes = self.mgr.get_month_quotes(2026, 8)
+        self.assertEqual(len(month_quotes), 31)
+        quote_ids = [m["quote"]["id"] for m in month_quotes]
+        # All 31 quote IDs must be strictly unique
+        self.assertEqual(len(quote_ids), len(set(quote_ids)))
+
+    def test_no_repeats_in_30_consecutive_days(self):
+        """Verify that no quote repeats within any 30 consecutive days."""
+        start_date = datetime(2026, 8, 1, 12, 0, 0, tzinfo=timezone.utc)
+        seen_ids = set()
+        for offset in range(30):
+            day_dt = start_date + timedelta(days=offset)
+            quote = self.mgr.get_daily_quote(day_dt)
+            self.assertNotIn(quote["id"], seen_ids, f"Duplicate quote #{quote['id']} found on day {day_dt}")
+            seen_ids.add(quote["id"])
+        self.assertEqual(len(seen_ids), 30)
+
     def test_random_quote(self):
         """Verify random quote retrieval."""
         quote = self.mgr.get_random_quote()
