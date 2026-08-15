@@ -44,30 +44,47 @@ def clean_text(raw_html: str) -> str:
 
 
 def extract_tags(quote: str, source: str) -> List[str]:
-    """Infers thematic Warhammer 40k tags for categorization and filtering."""
+    """
+    Infers specific, thematic Warhammer 40k classifications.
+    Uses precise priority weighting to ensure meaningful, distinct labels.
+    """
     text = (quote + " " + source).lower()
     tags = []
     
-    keywords = {
-        "Emperor": ["emperor", "imperium", "imperial", "throne"],
-        "Heresy": ["heresy", "heretic", "traitor", "treason", "taint", "corruption"],
-        "Duty & Honor": ["duty", "honor", "honour", "loyalty", "service", "obedien"],
-        "War & Battle": ["war", "battle", "sword", "weapon", "kill", "fight", "victory", "death", "blood"],
-        "Faith & Zeal": ["faith", "zeal", "prayer", "reverence", "blessing", "righteous"],
-        "Wisdom & Mind": ["mind", "thought", "knowledge", "ignoran", "reason", "logic", "wisdom"],
-        "Space Marines": ["astartes", "space marine", "chapter", "primarch", "blood angels", "black templars"],
-        "Inquisition": ["inquisition", "inquisitor", "purge", "purity", "sin", "guilt"],
-        "Adeptus Mechanicus": ["machine", "cogitator", "tech", "omnissiah", "mechanicus", "mars"],
-    }
+    # Check specific lore factions / organizations first
+    if any(k in text for k in ["space marine", "astartes", "chapter", "primarch", "black templar", "blood angel", "dark angel", "ultramarine", "dorn", "guilliman", "sanguinius"]):
+        tags.append("Adeptus Astartes Litany")
     
-    for tag, terms in keywords.items():
-        if any(term in text for term in terms):
-            tags.append(tag)
-            
+    if any(k in text for k in ["mechanicus", "machine", "cogitator", "tech-priest", "omnissiah", "mars", "iron hands"]):
+        tags.append("Adeptus Mechanicus Canticle")
+
+    if any(k in text for k in ["heresy", "heretic", "traitor", "treason", "alien", "xenos", "mutation", "mutant", "purge", "purity", "witch", "sorcery", "taint", "corruption", "inquisit", "inquisition", "daemon", "chaos"]):
+        tags.append("Inquisitorial Admonition")
+
+    if any(k in text for k in ["soldier", "officer", "regiment", "guard", "infantry", "trench", "army", "command", "militarum", "commissar", "tactica"]):
+        tags.append("Astra Militarum Doctrine")
+
+    if any(k in text for k in ["emperor", "god-emperor", "faith", "prayer", "worship", "zeal", "pious", "ecclesiarchy", "saint", "righteous", "blessing", "holy", "reverence", "sacred"]):
+        tags.append("Imperial Cult & Faith")
+
+    if any(k in text for k in ["mind", "thought", "knowledge", "ignoran", "wisdom", "reason", "logic", "study", "curiosity", "intellect", "truth", "silence", "doubt", "ponder", "philosophy"]):
+        tags.append("Mind & Philosophy")
+
+    if any(k in text for k in ["duty", "honor", "honour", "loyalty", "sacrifice", "service", "obedien", "valour", "courage", "bravery", "coward"]):
+        tags.append("Martial Honor & Duty")
+
+    if any(k in text for k in ["weakness", "leniency", "compromise", "mercy", "pity", "punish", "law", "guilt", "innocen", "fear", "hatred", "hate", "wrath", "fury", "vengeance"]):
+        tags.append("Imperial Law & Retribution")
+
     if not tags:
-        tags.append("Imperial Wisdom")
-        
-    return tags
+        # Source-based heuristics
+        if "codex" in text or "rulebook" in text:
+            tags.append("Imperial Doctrine")
+        else:
+            tags.append("Imperial Proclamation")
+
+    # Limit to top 2 most specific tags
+    return tags[:2]
 
 
 def scrape_quotes(url: str = LEXICANUM_URL) -> List[Dict[str, Any]]:
@@ -134,7 +151,7 @@ def save_quotes_to_file(quotes: List[Dict[str, Any]], filepath: Path) -> None:
     filepath.parent.mkdir(parents=True, exist_ok=True)
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump({
-            "version": "1.0",
+            "version": "1.1",
             "source_url": LEXICANUM_URL,
             "total_quotes": len(quotes),
             "quotes": quotes

@@ -67,10 +67,10 @@ class TestQuotesManager(unittest.TestCase):
 
     def test_tag_filtering(self):
         """Verify filtering quotes by category tags."""
-        heresy_quotes = self.mgr.get_quotes_by_tag("Heresy")
+        heresy_quotes = self.mgr.get_quotes_by_tag("Inquisitorial Admonition")
         self.assertGreater(len(heresy_quotes), 0)
         for q in heresy_quotes:
-            self.assertTrue(any("heresy" in t.lower() for t in q["tags"]))
+            self.assertTrue(any("inquisitorial" in t.lower() or "admonition" in t.lower() for t in q["tags"]))
 
     def test_search_quotes(self):
         """Verify keyword search in quotes and sources."""
@@ -110,7 +110,7 @@ class TestEmbedBuilder(unittest.TestCase):
             "id": 42,
             "quote": "Be grateful of your Master's favour!",
             "source": "Warhammer 40,000 4th Edition Rulebook, pg. 238",
-            "tags": ["War & Battle", "Emperor"]
+            "tags": ["Imperial Cult & Faith"]
         }
         embed = build_quote_embed(quote_sample, color="crimson")
 
@@ -140,7 +140,7 @@ class TestEmbedBuilder(unittest.TestCase):
             "id": 1,
             "quote": "A broad mind lacks focus.",
             "source": "Warhammer 40,000 4th Edition Rulebook, pg. 120",
-            "tags": ["Wisdom & Mind"]
+            "tags": ["Mind & Philosophy"]
         }
         payload = build_webhook_payload(quote_sample, bot_name="Commissar Boneski")
         self.assertEqual(payload["username"], "Commissar Boneski")
@@ -163,8 +163,7 @@ class TestScraperCleaner(unittest.TestCase):
 
     def test_extract_tags(self):
         tags = extract_tags("Heresy must be purged in holy fire", "Inquisitor Eisenhorn")
-        self.assertIn("Heresy", tags)
-        self.assertIn("Inquisition", tags)
+        self.assertIn("Inquisitorial Admonition", tags)
 
 
 if __name__ == "__main__":

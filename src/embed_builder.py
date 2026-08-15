@@ -77,20 +77,25 @@ def build_quote_embed(
     color: Optional[str] = "gold",
     custom_title: Optional[str] = None,
     include_stardate: bool = True,
-    thumbnail_url: Optional[str] = DEFAULT_THUMBNAIL_URL
+    thumbnail_url: Optional[str] = DEFAULT_THUMBNAIL_URL,
+    target_date: Optional[datetime] = None
 ) -> Dict[str, Any]:
     """
     Builds a Discord embed payload according to Discord API specs.
     Places the single Thought of the Day in the primary description position,
-    with exact matching source citation, tags, and date.
+    with exact matching source citation, tags, and human-readable calendar date + Stardate.
     """
+    if target_date is None:
+        target_date = datetime.now(timezone.utc)
+
     quote_text = quote_data.get("quote", "The Emperor Protects.")
     source_text = quote_data.get("source", "Imperial Wisdom")
-    tags = quote_data.get("tags", ["Imperial Wisdom"])
+    tags = quote_data.get("tags", ["Imperial Doctrine"])
     quote_id = quote_data.get("id", "---")
     
     embed_color = get_embed_color(color)
-    stardate = calculate_imperial_stardate()
+    stardate = calculate_imperial_stardate(target_date)
+    human_date = target_date.strftime("%B %d, %Y")
     
     ref_str = f"{quote_id:03d}" if isinstance(quote_id, int) else str(quote_id)
     title = custom_title or f"⚔️ COMMISSAR BONESKI // THOUGHT FOR THE DAY #{ref_str} ⚔️"
@@ -113,8 +118,8 @@ def build_quote_embed(
         
     if include_stardate:
         fields.append({
-            "name": "⏳ Imperial Stardate",
-            "value": f"`{stardate}`",
+            "name": "📅 Date",
+            "value": f"{human_date}\n`{stardate}`",
             "inline": True
         })
 
@@ -126,7 +131,7 @@ def build_quote_embed(
         "footer": {
             "text": "Commissar Boneski • Daily Imperial Proclamation"
         },
-        "timestamp": datetime.now(timezone.utc).isoformat()
+        "timestamp": target_date.isoformat()
     }
     
     if thumbnail_url:
@@ -143,12 +148,13 @@ def build_webhook_payload(
     bot_name: str = "Commissar Boneski",
     avatar_url: Optional[str] = DEFAULT_AVATAR_URL,
     thumbnail_url: Optional[str] = DEFAULT_THUMBNAIL_URL,
-    custom_content: Optional[str] = None
+    custom_content: Optional[str] = None,
+    target_date: Optional[datetime] = None
 ) -> Dict[str, Any]:
     """
     Builds the full JSON payload for Discord Webhook delivery.
     """
-    embed = build_quote_embed(quote_data, color=color, thumbnail_url=thumbnail_url)
+    embed = build_quote_embed(quote_data, color=color, thumbnail_url=thumbnail_url, target_date=target_date)
     
     payload = {
         "username": bot_name,
