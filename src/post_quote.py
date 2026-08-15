@@ -22,7 +22,7 @@ if sys.stdout.encoding != "utf-8":
         pass
 
 from quotes_manager import QuotesManager
-from embed_builder import build_webhook_payload, build_quote_embed, calculate_imperial_stardate
+from embed_builder import build_webhook_payload, build_quote_embed
 
 
 def send_discord_webhook(webhook_url: str, payload: Dict[str, Any], max_retries: int = 3) -> bool:
@@ -103,7 +103,6 @@ def send_discord_bot_rest(bot_token: str, channel_id: str, payload: Dict[str, An
 
 def print_terminal_preview(quote_data: Dict[str, Any], color: str) -> None:
     """Prints a styled representation of the Commissar Boneski transmission."""
-    stardate = calculate_imperial_stardate()
     q_id = quote_data.get("id", "---")
     quote = quote_data.get("quote", "")
     source = quote_data.get("source", "Imperial Wisdom")
@@ -112,7 +111,6 @@ def print_terminal_preview(quote_data: Dict[str, Any], color: str) -> None:
     print("\n" + "=" * 70)
     print(" === COMMISSAR BONESKI // IMPERIAL TRANSMISSION === ")
     print("=" * 70)
-    print(f" Stardate      : {stardate}")
     print(f" Thought ID    : #{q_id}")
     print(f" Classification: {tags}")
     print(f" Embed Color   : {color.upper()}")

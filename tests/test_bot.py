@@ -15,7 +15,6 @@ from quotes_manager import QuotesManager
 from embed_builder import (
     build_quote_embed,
     build_webhook_payload,
-    calculate_imperial_stardate,
     get_embed_color,
     COLOR_PALETTES
 )
@@ -102,17 +101,6 @@ class TestQuotesManager(unittest.TestCase):
 
 class TestEmbedBuilder(unittest.TestCase):
     """Test suite for Discord embed creation and formatting."""
-
-    def test_stardate_format(self):
-        """Verify Imperial Stardate matches canonical format (e.g. 0.621.026.M42)."""
-        dt = datetime(2026, 8, 15, 12, 0, 0, tzinfo=timezone.utc)
-        stardate = calculate_imperial_stardate(dt)
-        parts = stardate.split(".")
-        self.assertEqual(len(parts), 4)
-        self.assertEqual(parts[0], "0")       # Terra Standard Check digit
-        self.assertEqual(len(parts[1]), 3)    # Year fraction
-        self.assertEqual(parts[2], "026")     # Year within millennium
-        self.assertEqual(parts[3], "M42")     # 42nd Millennium
 
     def test_embed_colors(self):
         """Verify embed color resolution for names and hex codes."""
